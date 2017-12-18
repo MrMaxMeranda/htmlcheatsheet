@@ -152,93 +152,112 @@ structure of that content.
 		counter on the left, such as a number
 		or letter.
 <main>		represents the main content of the
-<body> of a document, portion of a document, or
-application. The
-main content area consists of content that is directly
-related to, or expands upon the central topic of, a
-document or the central functionality of an
-application.  <ol> 	The HTML <ol> element
-represents an ordered list of items, typically rendered
-as a numbered list.  <p> 	The HTML <p> element
-represents a paragraph of text.  <pre> 	The HTML <pre>
-element represents preformatted text which is to be
-presented exactly as written in the HTML file.  <ul>
-The HTML <ul> element represents an unordered list of
-items, typically rendered as a bulleted list.  Inline
-text semantics
+		<body> of a document, portion of a
+		document, or application. The main
+		content area consists of content that
+		is directly related to, or expands upon
+		the central topic of, a document or the
+		central functionality of an
+		application.
+<ol>		represents an ordered list of items,
+		typically rendered as a numbered list.
+<p>		represents a paragraph of text.
+<pre> 		represents preformatted text which is
+		to be presented exactly as written in
+		the HTML file.
+<ul>		represents an unordered list of items,
+		typically rendered as a bulleted list.
+
+INLINE TEXT SEMANTICS
 
 Use the HTML inline text semantic to define the
 meaning, structure, or style of a word, line, or any
-arbitrary piece of text.  Element 	Description <a>
-The HTML <a> element (or anchor element) creates a
-hyperlink to other web pages, files, locations within
-the same page, email addresses, or any other URL.
-<abbr> 	The HTML <abbr> element represents an
-abbreviation and optionally provides a full description
-for it. If present, the title attribute must contain
-this full description and nothing else.  <b> 	The
-HTML Bring Attention To element (<b>)  is used to draw
-the reader's attention to the element's contents, which
-are not otherwise granted special importance.  <bdi>
-The HTML <bdi> element (bidirectional isolation)
-isolates a span of text that might be formatted in a
-different direction from other text outside it.  <bdo>
-The HTML Bidirectional Text Override element (<bdo>)
-overrides the current directionality of text, so that
-the text within is rendered in a different direction.
-<br> 	The HTML <br> element produces a line break in
-text (carriage-return).  It is useful for writing a
-poem or an address, where the division of lines is
-significant.  <cite> 	The HTML Citation element
-(<cite>) is used to describe a reference to a cited
-creative work, and must include either the title or the
-URL of that work.  <code> 	The HTML <code> element
-displays its contents styled in a fashion intended to
-indicate that the text is a short fragment of computer
-code.  <data> 	The HTML <data> element links a given
-content with a machine-readable translation. If the
-content is time- or date-related, the <time> element
-must be used.  <dfn> 	The HTML Definition element
-(<dfn>) is used to mark the usage instance of the
-enclosed term which is itself included within the
-definition of that term.  <em> 	The HTML <em> element
-marks text that has stress emphasis. The <em> element
-can be nested, with each level of nesting indicating a
-greater degree of emphasis.  <i> 	The HTML <i>
-element represents a range of text that is set off from
-the normal text for some reason, for example, technical
-terms, foreign language phrases, or fictional character
-thoughts. It is typically displayed in italic type.
-<kbd> 	The HTML <kbd> element represents user input
-and produces an inline element displayed in the
-browser's default monospace font.  <mark> 	The
-HTML <mark> element represents highlighted text, i.e.,
-a run of text marked for reference purpose, due to its
-relevance in a particular context.  <nobr> 	The
-non-standard, obsolete HTML <nobr> element prevents the
-text it contains from automatically wrapping accross
-multiple lines, potentially resulting in the user
-having to scroll horizontally to see the entire width
-of the text.  <q> 	The HTML <q> element indicates
-that the enclosed text is a short inline quotation.
-Most modern browsers implement this by surrounding the
-text in quotation marks.  <rp> 	The HTML Ruby Fallback
-Parenthesis (<rp>) element is used to provide fall-back
-parentheses for browsers that do not support display of
-ruby annotations using the <ruby> element.  <rt>
-The HTML Ruby Text (<rt>) element specifies the ruby
-text component of a ruby annotation, which is used to
-provide pronunciation, translation, or transliteration
-information for East Asian typography. The <rt> element
-must always be contained within a <ruby> element.
-<rtc> 	The HTML Ruby Text Container (<rtc>) element
-embraces semantic annotations of characters presented
-in a ruby of <rb> elements used inside of <ruby>
-element. <rb> elements can have both pronunciation
-(<rt>) and semantic (<rtc>) annotations.  <ruby>
-The HTML <ruby> element represents a ruby annotation.
-Ruby annotations are for showing pronunciation of East
-Asian characters.  <s> 	The HTML <s> element renders
+arbitrary piece of text.
+<a>		creates a hyperlink to other web pages,
+		files, locations within the same page,
+		email addresses, or any other URL.
+<abbr>		represents an abbreviation and
+		optionally provides a full description
+		for it. If present, the title attribute
+		must contain this full description and
+		nothing else.
+<b>		is used to draw the reader's attention
+		to the element's contents, which are
+		not otherwise granted special
+		importance.
+<bdi>		isolates a span of text that might be
+		formatted in a different direction from
+		other text outside it.
+<bdo>		overrides the current directionality of
+		text, so that the text within is
+		rendered in a different direction.
+<br>		The HTML <br> element produces a line
+		break in text (carriage-return). It is
+		useful for writing a poem or an
+		address, where the division of lines is
+		significant.
+<cite>		is used to describe a reference to a
+		cited creative work, and must include
+		either the title or the URL of that
+		work.
+<code>		displays its contents styled in a
+		fashion intended to indicate that the
+		text is a short fragment of computer
+		code.
+<data>		links a given content with a
+		machine-readable translation. If the
+		content is time- or date-related, the
+		<time> element must be used.
+<dfn>		is used to mark the usage instance of
+		the enclosed term which is itself
+		included within the definition of that
+		term.
+<em>		marks text that has stress emphasis.
+		The <em> element can be nested, with
+		each level of nesting indicating a
+		greater degree of emphasis.
+<i>		represents a range of text that is set
+		off from the normal text for some
+		reason, for example, technical terms,
+		foreign language phrases, or fictional
+		character thoughts. It is typically
+		displayed in italic type.
+<kbd>		The HTML <kbd> element represents user
+		input and produces an inline element
+		displayed in the browser's default
+		monospace font.
+<mark>		represents highlighted text, i.e., a
+		run of text marked for reference
+		purpose, due to its relevance in a
+		particular context.
+<q>		indicates that the enclosed text is a
+		short inline quotation. Most modern
+		browsers implement this by surrounding
+		the text in quotation marks.
+<rp>		(Ruby Fallback Parenthesis) element is
+		used to provide fall-back parentheses
+		for browsers that do not support
+		display of ruby annotations using the
+		<ruby> element.
+<rt>		(HTML Ruby Text) element specifies the
+		ruby text component of a ruby
+		annotation, which is used to provide
+		pronunciation, translation, or
+		transliteration information for East
+		Asian typography. The <rt> element must
+		always be contained within a <ruby>
+		element.
+<rtc>		(HTML Ruby Text Container) element
+		embraces semantic annotations of
+		characters presented in a ruby of <rb>
+		elements used inside of <ruby> element.
+		<rb> elements can have both
+		pronunciation (<rt>) and semantic
+		(<rtc>) annotations.
+<ruby>		represents a ruby annotation. Ruby
+		annotations are for showing
+		pronunciation of East Asian characters.
+<s>		The HTML <s> element renders
 text with a strikethrough, or a line through it. Use
 the <s> element to represent things that are no longer
 relevant or no longer accurate. However, <s> is not
