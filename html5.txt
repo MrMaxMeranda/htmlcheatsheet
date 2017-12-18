@@ -38,30 +38,35 @@ SECTIONING ROOT
 <body>		represents the content of an HTML
 		document. There can be only one <body>
 		element in a document.
-Content sectioning
 
-Content sectioning elements allow you to organize the
-document content into logical pieces. Use the
-sectioning elements to create a broad outline for your
-page content, including header and footer navigation,
-and heading elements to identify sections of content.
-Element 	Description <address> 	The HTML
-<address> element indicates that the enclosed HTML
-provides contact information for a person or people, or
-for an organization.supplies contact information for
-its nearest <article> or <body> ancestor; in the latter
-case, it applies to the whole document.  <article>
-The HTML <article> element represents a self-contained
-composition in a document, page, application, or site,
-which is intended to be independently distributable or
-reusable (e.g., in syndication). Examples include: a
-forum post, a magazine or newspaper article, or a blog
-entry.  <aside> 	The HTML <aside> element
-represents a portion of a document whose content is
-only indirectly related to the document's main content.
+CONTENT SECTIONING
+
+Allows you to organize the document content into
+logical pieces. Use this to create a broad outline for
+your page content, including header and footer
+navigation, and heading elements to identify sections
+of content.
+<address>	Indicates that the enclosed HTML
+		provides contact information for a
+		person or people, or for an
+		organization.supplies contact
+		information for its nearest <article>
+		or <body> ancestor; in the latter case,
+		it applies to the whole document.
+<article>	represents a self-contained composition
+		in a document, page, application, or
+		site, which is intended to be
+		independently distributable or reusable
+		(e.g., in syndication). Examples
+		include: a forum post, a magazine or
+		newspaper article, or a blog entry.
+<aside> 	represents a portion of a document
+		whose content is only indirectly
+		related to the document's main content.
 <footer> 	The HTML <footer> element represents a
-footer for its nearest sectioning content or sectioning
-root element. A footer typically contains information
+		footer for its nearest sectioning
+		content or sectioning root element. A
+		footer typically contains information
 about the author of the section, copyright data or
 links to related documents.  <header> 	The HTML
 <header> element represents introductory content,
