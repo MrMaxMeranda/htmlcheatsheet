@@ -257,29 +257,36 @@ arbitrary piece of text.
 <ruby>		represents a ruby annotation. Ruby
 		annotations are for showing
 		pronunciation of East Asian characters.
-<s>		The HTML <s> element renders
-text with a strikethrough, or a line through it. Use
-the <s> element to represent things that are no longer
-relevant or no longer accurate. However, <s> is not
-appropriate when indicating document edits; for that,
-use the <del> and <ins> elements, as appropriate.
-<samp> 	The HTML <samp> element is an element intended
-to identify sample output from a computer program. It
-is usually displayed in the browser's default monotype
-font (such as Lucida Console).  <small> 	The
-HTML <small> element makes the text font size one size
-smaller (for example, from large to medium, or from
-small to x-small) down to the browser's minimum font
-size.  In HTML5, this element is repurposed to
-represent side-comments and small print, including
-copyright and legal text, independent of its styled
-presentation.  <span> 	The HTML <span> element is a
-generic inline container for phrasing content, which
-does not inherently represent anything. It can be used
-to group elements for styling purposes (using the class
-or id attributes), or because they share attribute
-values, such as lang.  <strong> 	The HTML
-<strong> element gives text strong importance and is
+<s>		renders text with a strikethrough, or a
+		line through it. Use the <s> element to
+		represent things that are no longer
+		relevant or no longer accurate.
+		However, <s> is not appropriate when
+		indicating document edits; for that,
+		use the <del> and <ins> elements, as
+		appropriate.
+<samp>		The HTML <samp> element is an element
+		intended to identify sample output from
+		a computer program. It is usually
+		displayed in the browser's default
+		monotype font (such as Lucida Console).
+<small> 	makes the text font size one size
+		smaller (for example, from large to
+		medium, or from small to x-small) down
+		to the browser's minimum font size.  In
+		HTML5, this element is repurposed to
+		represent side-comments and small
+		print, including copyright and legal
+		text, independent of its styled
+		presentation.
+<span>		generic inline container for phrasing
+		content, which does not inherently
+		represent anything. It can be used to
+		group elements for styling purposes
+		(using the class or id attributes), or
+		because they share attribute values,
+		such as lang.
+<strong> 	gives text strong importance and is
 typically displayed in bold.  <sub> 	The HTML <sub>
 element defines a span of text that should be
 displayed, for typographic reasons, lower, and often
