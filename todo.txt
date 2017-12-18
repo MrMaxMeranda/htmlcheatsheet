@@ -1,2 +1,3 @@
 To Do List:
 
+1 Order elements by relevance instead of alphabetically.
