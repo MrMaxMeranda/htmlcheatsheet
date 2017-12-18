@@ -1,4 +1,4 @@
-HTML elements reference - HTML 29-36 minutes
+HTML elements reference
 
 This page lists all the HTML elements. They are grouped
 by function to help you find what you have in mind
@@ -6,32 +6,38 @@ easily.
 
 For more information about the basics of HTML elements
 and attributes, see the section on elements in the
-Introduction to HTML article.  Main root Element
-Description <html> 	The HTML <html> element
-represents the root (top-level element) of an HTML
-document, so it is also referred to as the root
-element. All other elements must be descendants of this
-element.
+Introduction to HTML article.
 
-Metadata contains information about the page. This
-includes information about styles, scripts and data to
+MAIN ROOT:
+<html>		The HTML <html> element represents the
+		root (top-level element) of an HTML
+		document, so it is also referred to as
+		the root element. All other elements
+		must be descendants of this element.
+
+DOCUMENT METADATA:
+Information about the page: Styles, scripts and data to
 help software (search engines, browsers, etc.) use and
 render the page. Metadata for styles and scripts may be
 defined in the page or link to another file that has
-the information.  Element 	Description <link>
-The HTML <link> element specifies relationships between
-the current document and an external resource. Possible
-uses for this element include defining a relational
-framework for navigation. This element is most used to
-link to style sheets.  <meta> 	The HTML <meta> element
-represents metadata that cannot be represented by other
-HTML meta-related elements, like <base>, <link>,
-<script>, <style> or <title>.  <style> 	The HTML
-<style> element contains style information for a
-document, or part of a document.  Sectioning root
-Element 	Description <body> 	The HTML <body>
-Element represents the content of an HTML document.
-There can be only one <body> element in a document.
+the information.
+<link> 		element specifies relationships between
+		the current document and an external
+		resource. Possible uses for this
+		element include defining a relational
+		framework for navigation. This element
+		is most used to link to style sheets.
+<meta> 		represents metadata that cannot be
+		represented by other HTML meta-related
+		elements, like <base>, <link>,
+		<script>, <style> or <title>.
+<style> 	contains style information for a
+		document, or part of a document.
+
+SECTIONING ROOT
+<body>		represents the content of an HTML
+		document. There can be only one <body>
+		element in a document.
 Content sectioning
 
 Content sectioning elements allow you to organize the
