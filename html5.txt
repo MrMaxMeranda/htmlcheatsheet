@@ -67,16 +67,22 @@ of content.
 		footer for its nearest sectioning
 		content or sectioning root element. A
 		footer typically contains information
-about the author of the section, copyright data or
-links to related documents.  <header> 	The HTML
-<header> element represents introductory content,
-typically a group of introductory or navigational aids.
-It may contain some heading elements but also other
-elements like a logo, a search form, an author name,
-and so on.  <h1>, <h2>, <h3>, <h4>, <h5>, <h6> 	The
-HTML <h1>–<h6> elements represent six levels of section
-headings. <h1> is the highest section level and <h6> is
-the lowest.  <hgroup> 	The HTML <hgroup> element
+		about the author of the section,
+		copyright data or links to related
+		documents.
+<header> 	represents introductory content,
+		typically a group of introductory or
+		navigational aids. It may contain some
+		heading elements but also other
+		elements like a logo, a search form, an
+		author name, and so on.
+<h1>, <h2>,	The HTML <h1>–<h6> elements represent
+<h3>, <h4>,	six levels of section headings. <h1> is
+<h5>, <h6> 	the highest section level and <h6> is
+		the lowest.
+		
+		
+<hgroup> 	The HTML <hgroup> element
 represents a multi-level heading for a section of a
 document. It groups a set of <h1>–<h6> elements.  <nav>
 The HTML <nav> element represents a section of a page
