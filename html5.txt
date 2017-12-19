@@ -112,6 +112,10 @@ structure of that content.
 <dd> 		provides the details about or the
 		definition of the preceding term (<dt>)
 		in a description list (<dl>).
+<dir> 		Obsolete. Is used as a container for a
+		directory of files and/or folders,
+		potentially with styles and icons
+		applied by the user agent.
 <div> 		generic container for flow content. It
 		has no effect on the content or layout
 		until styled using CSS.
@@ -222,10 +226,15 @@ arbitrary piece of text.
 		foreign language phrases, or fictional
 		character thoughts. It is typically
 		displayed in italic type.
-<kbd>		The HTML <kbd> element represents user
-		input and produces an inline element
-		displayed in the browser's default
-		monospace font.
+<kbd>		represents user input and produces an
+		inline element displayed in the
+		browser's default monospace font.
+<nobr>		obsolete element prevents the text it
+		contains from automatically wrapping
+		accross multiple lines, potentially
+		resulting in the user having to scroll
+		horizontally to see the entire width of
+		the text.
 <mark>		represents highlighted text, i.e., a
 		run of text marked for reference
 		purpose, due to its relevance in a
