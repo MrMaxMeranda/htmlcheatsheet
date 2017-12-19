@@ -529,28 +529,36 @@ Web Components is an HTML-related technology which
 makes it possible to, essentially, create and use
 custom elements as if it were regular HTML. In
 addition, you can create custom versions of standard
-HTML elements.  Element 	Description <content>
-The HTML <content> element—an obsolete part of the Web
-Components suite of technologies—was used inside of
-Shadow DOM as an insertion point, and wasn't meant to
-be used in ordinary HTML.  <element> 	The obsolete
-HTML <element> element was part of the Web Components
-specification; it was intended to be used to define new
-custom DOM elements.  <shadow> 	The HTML <shadow>
-element—an obsolete part of the Web Components
-technology suite—was intended to be used as a shadow
-DOM insertion point. You might have used it if you have
-created multiple shadow roots under a shadow host. It
-is not useful in ordinary HTML.  <slot> 	The
-HTML <slot> element—part of the Web Components
-technology suite—is a placeholder inside a web
-component that you can fill with your own markup, which
-lets you create separate DOM trees and present them
-together.  <template> 	The HTML <template> element is
-a mechanism for holding client-side content that is not
-to be rendered when a page is loaded but may
-subsequently be instantiated during runtime using
-JavaScript.  Obsolete and deprecated elements
+HTML elements.
+<content>	obsolete part of the Web Components
+		suite of technologies—was used inside
+		of Shadow DOM as an insertion point,
+		and wasn't meant to be used in ordinary
+		HTML.
+<element> 	Obsolete. Was part of the Web
+		Components specification; it was
+		intended to be used to define new
+		custom DOM elements.
+<shadow> 	obsolete part of the Web Components
+		technology suite—was intended to be
+		used as a shadow DOM insertion point.
+		You might have used it if you have
+		created multiple shadow roots under a
+		shadow host. It is not useful in
+		ordinary HTML.
+<slot>		element—part of the Web Components
+		technology suite—is a placeholder
+		inside a web component that you can
+		fill with your own markup, which lets
+		you create separate DOM trees and
+		present them together.
+<template>	is a mechanism for holding client-side
+		content that is not to be rendered when
+		a page is loaded but may subsequently
+		be instantiated during runtime using
+		JavaScript.
+
+OBSOLETE AND DEPRECATED ELEMENTS:
 
 Warning: These are old HTML elements which are
 deprecated and should not be used. You should never use
