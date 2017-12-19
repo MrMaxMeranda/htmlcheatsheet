@@ -573,121 +573,137 @@ Warning: These are old HTML elements which are
 deprecated and should not be used. You should never use
 them in new projects, and should replace them in old
 projects as soon as you can. They are listed here for
-informational purposes only.  Element 	Description
-<acronym> 	The HTML Acronym Element (<acronym>)
-allows authors to clearly indicate a sequence of
-characters that compose an acronym or abbreviation for
-a word. This element has been removed in HTML5. Use
-<abbr> element.  <applet> 	The obsolete HTML
-Applet Element (<applet>) embeds a Java applet into the
-document; this element has been deprecated in favor of
-<object>.  <basefont> 	The obsolete HTML Base Font
-element (<basefont>) sets a default font face, size,
-and color for the other elements which are descended
-from its parent element.  <bgsound> 	The Internet
-Explorer only HTML Background Sound element (<bgsound>)
-sets up a sound file to play in the background while
-the page is used; use <audio> instead.  <big> 	The
-obsolete HTML Big Element (<big>) renders the enclosed
-text at a font size one level larger than the
-surrounding text (medium becomes large, for example).
-<blink> 	The HTML Blink Element (<blink>) is a
-non-standard element which causes the enclosed text to
-flash slowly.  <center> 	The obsolete HTML
-Center Element (<center>) is a block-level element that
-displays its block-level or inline contents centered
-horizontally within its containing element.  <command>
-The HTML Command element (<command>) represents a
-command which the user can invoke. Commands are often
-used as part of a context menu or toolbar.  <content>
-The HTML <content> element—an obsolete part of the Web
-Components suite of technologies—was used inside of
-Shadow DOM as an insertion point, and wasn't meant to
-be used in ordinary HTML.  <dir> 	The obsolete
-HTML Directory element (<dir>) is used as a container
-for a directory of files and/or folders, potentially
-with styles and icons applied by the user agent.
-<element> 	The obsolete HTML <element> element was
-part of the Web Components specification; it was
-intended to be used to define new custom DOM elements.
-<font> 	The HTML Font Element (<font>) defines the font
-size, color and face for its content.  <frame> 	<frame>
-is an HTML element which defines a particular area in
-which another HTML document can be displayed. A frame
-should be used within a <frameset>.  <frameset>
-<frameset> is an HTML element which is used to contain
-<frame> elements.  <image> 	The HTML <image>
-element is an obsolete remnant of an ancient version of
-HTML lost in the mists of time; use the standard <img>
-element instead. Seriously, the specification even
-literally uses the words "Don't ask" when describing
-this element.  <isindex> 	<isindex> is an
-obsolete HTML element that puts a text field in a page
-for querying the document.  <keygen> 	The HTML
-<keygen> element exists to facilitate generation of key
-material, and submission of the public key as part of
-an HTML form. This mechanism is designed for use with
-Web-based certificate management systems. It is
-expected that the <keygen> element will be used in an
-HTML form along with other information needed to
-construct a certificate request, and that the result of
-the process will be a signed certificate.  <listing>
-The HTML Listing Element (<listing>) renders text
-between the start and end tags without interpreting the
-HTML in between and using a monospaced font. The HTML 2
-standard recommended that lines shouldn't be broken
-when not greater than 132 characters.  <marquee>
-The HTML <marquee> element is used to insert a
-scrolling area of text. You can control what happens
-when the text reaches the edges of its content area
-using its attributes.  <multicol> 	The HTML
-<multicol> element was an experimental element designed
-to allow multi-column layouts. It never got any
-significant traction and is not implemented in any
-major browsers.  <nextid> 	<nextid> is an obsolete
-HTML element that served to enable the NeXT web
-designing tool to generate automatic NAME labels for
-its anchors.  <nobr> 	The non-standard, obsolete HTML
-<nobr> element prevents the text it contains from
-automatically wrapping accross multiple lines,
-potentially resulting in the user having to scroll
-horizontally to see the entire width of the text.
-<noembed> 	The <noembed> element is an obsolete,
-non-standard way to provide alternative, or "fallback",
-content for browsers that do not support the <embed>
-element or do not support the type of embedded content
-an author wishes to use.  <noframes> 	The obsolete
-HTML No Frames or frame fallback element, <noframes>,
-provides content to be presented in browsers that don't
-support (or have disabled support for) the <frame>
-element.  <plaintext> 	The HTML Plaintext Element
-(<plaintext>) renders everything following the start
-tag as raw text, without interpreting any HTML. There
-is no closing tag, since everything after it is
-considered raw text.  <shadow> 	The HTML <shadow>
-element—an obsolete part of the Web Components
-technology suite—was intended to be used as a shadow
-DOM insertion point. You might have used it if you have
-created multiple shadow roots under a shadow host. It
-is not useful in ordinary HTML.  <spacer>
-<spacer> is an obsolete HTML element which allowed
-insertion of empty spaces on pages. It was devised by
-Netscape to accomplish the same effect as a
-single-pixel layout image, which was something web
-designers used to use to add white spaces to web pages
-without actually using an image. However, <spacer> no
-longer supported by any major browser and the same
-effects can now be achieved using simple CSS.  <strike>
-The HTML <strike> element (or HTML Strikethrough
-Element) places a strikethrough (horizontal line) over
-text.  <tt> 	The HTML Teletype Text Element (<tt>)
-produces an inline element displayed in the browser's
-default monotype font. This element was intended to
-style text as it would display on a fixed width
-display, such as a teletype. It probably is more common
-to display fixed width type using the <code> element.
-<xmp> 	The HTML Example Element (<xmp>) renders text
-between the start and end tags without interpreting the
-HTML in between and using a monospaced font. The HTML2
-specification recommended that it should be rendered
-wide enough to allow 80 characters per line.
+informational purposes only.
+<acronym>	allows authors to clearly indicate a
+		sequence of characters that compose an
+		acronym or abbreviation for a word.
+		This element has been removed in HTML5.
+		Use <abbr> element.
+<applet> 	embeds a Java applet into the document;
+		this element has been deprecated in
+		favor of <object>.
+<basefont> 	sets a default font face, size, and
+		color for the other elements which are
+		descended from its parent element.
+<bgsound> 	Internet Explorer only. Sets up a sound
+		file to play in the background while
+		the page is used; use <audio> instead.
+<big> 		renders the enclosed text at a font
+		size one level larger than the
+		surrounding text (medium becomes large,
+		for example).
+<blink> 	a non-standard element which causes the
+		enclosed text to flash slowly.
+<center> 	a block-level element that displays its
+		block-level or inline contents centered
+		horizontally within its containing
+		element.
+<command>	represents a command which the user can
+		invoke. Commands are often used as part
+		of a context menu or toolbar.
+<content>	part of the Web Components suite of
+		technologies—was used inside of Shadow
+		DOM as an insertion point, and wasn't
+		meant to be used in ordinary HTML.
+<dir>		used as a container for a directory of
+		files and/or folders, potentially with
+		styles and icons applied by the user
+		agent.
+<element> 	was part of the Web Components
+		specification; it was intended to be
+		used to define new custom DOM elements.
+<font>		defines the font size, color and face
+		for its content.
+<frame> 	is an HTML element which defines a
+		particular area in which another HTML
+		document can be displayed. A frame
+		should be used within a <frameset>.
+<frameset>	is an HTML element which is used to
+		contain <frame> elements.
+<image>		remnant of an ancient version of HTML
+		lost in the mists of time; use the
+		standard <img> element instead.
+<isindex	puts a text field in a page for
+		querying the document.
+<keygen> 	to facilitate generation of key
+		material, and submission of the public
+		key as part of an HTML form. This
+		mechanism is designed for use with
+		Web-based certificate management
+		systems. It is expected that the
+		<keygen> element will be used in an
+		HTML form along with other information
+		needed to construct a certificate
+		request, and that the result of the
+		process will be a signed certificate.
+<listing>	renders text between the start and end
+		tags without interpreting the HTML in
+		between and using a monospaced font.
+		The HTML 2 standard recommended that
+		lines shouldn't be broken when not
+		greater than 132 characters.
+<marquee>	used to insert a scrolling area of
+		text. You can control what happens when
+		the text reaches the edges of its
+		content area using its attributes.
+<multicol> 	an experimental element designed to
+		allow multi-column layouts. It never
+		got any significant traction and is not
+		implemented in any major browsers.
+<nextid> 	an obsolete HTML element that served to
+		enable the NeXT web designing tool to
+		generate automatic NAME labels for its
+		anchors.
+<nobr>		prevents the text it contains from
+		automatically wrapping accross multiple
+		lines, potentially resulting in the
+		user having to scroll horizontally to
+		see the entire width of the text.
+<noembed> 	an obsolete, non-standard way to
+		provide alternative, or "fallback",
+		content for browsers that do not
+		support the <embed> element or do not
+		support the type of embedded content an
+		author wishes to use.
+<noframes>	provides content to be presented in
+		browsers that don't support (or have
+		disabled support for) the <frame>
+		element.
+<plaintext> 	renders everything following the start
+		tag as raw text, without interpreting
+		any HTML. There is no closing tag,
+		since everything after it is considered
+		raw text.
+<shadow> 	part of the Web Components technology
+		suite—was intended to be used as a
+		shadow DOM insertion point. You might
+		have used it if you have created
+		multiple shadow roots under a shadow
+		host. It is not useful in ordinary
+		HTML.
+<spacer>	allowed insertion of empty spaces on
+		pages. It was devised by Netscape to
+		accomplish the same effect as a
+		single-pixel layout image, which was
+		something web designers used to use to
+		add white spaces to web pages without
+		actually using an image. However,
+		<spacer> no longer supported by any
+		major browser and the same effects can
+		now be achieved using simple CSS.
+<strike>	places a strikethrough (horizontal
+		line) over text.
+<tt>		produces an inline element displayed in
+		the browser's default monotype font.
+		This element was intended to style text
+		as it would display on a fixed width
+		display, such as a teletype. It
+		probably is more common to display
+		fixed width type using the <code>
+		element.
+<xmp>		renders text between the start and end
+		tags without interpreting the HTML in
+		between and using a monospaced font.
+		The HTML2 specification recommended
+		that it should be rendered wide enough
+		to allow 80 characters per line.
