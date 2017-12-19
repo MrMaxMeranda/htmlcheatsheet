@@ -287,30 +287,35 @@ arbitrary piece of text.
 		because they share attribute values,
 		such as lang.
 <strong> 	gives text strong importance and is
-typically displayed in bold.  <sub> 	The HTML <sub>
-element defines a span of text that should be
-displayed, for typographic reasons, lower, and often
-smaller, than the main span of text.  <sup> 	The
-HTML <sup> element defines a span of text that should
-be displayed, for typographic reasons, higher, and
-often smaller, than the main span of text.  <time>
-The HTML <time> element represents either a time on a
-24-hour clock or a precise date in the Gregorian
-calendar (with optional time and timezone information).
-<u> 	The HTML <u> element renders text with an
-underline, a line under the baseline of its content. In
-HTML5, this element represents a span of text with an
-unarticulated, though explicitly rendered, non-textual
-annotation, such as labeling the text as being a proper
-name in Chinese text (a Chinese proper name mark), or
-labeling the text as being misspelled.  <var> 	The
-HTML <var> element represents a variable in a
-mathematical expression or a programming context.
-<wbr> 	The HTML <wbr> element represents a word break
-opportunity—a position within text where the browser
-may optionally break a line, though its line-breaking
-rules would not otherwise create a break at that
-location.
+		typically displayed in bold.
+<sub> 		defines a span of text that should be
+		displayed, for typographic reasons,
+		lower, and often smaller, than the main
+		span of text.
+<sup> 		defines a span of text that should be
+		displayed, for typographic reasons,
+		higher, and often smaller, than the
+		main span of text.
+<time>		represents either a time on a 24-hour
+		clock or a precise date in the
+		Gregorian calendar (with optional time
+		and timezone information).
+<u> 		renders text with an underline, a line
+		under the baseline of its content. In
+		HTML5, this element represents a span
+		of text with an unarticulated, though
+		explicitly rendered, non-textual
+		annotation, such as labeling the text
+		as being a proper name in Chinese text
+		(a Chinese proper name mark), or
+		labeling the text as being misspelled.
+<var>		represents a variable in a mathematical
+		expression or a programming context.
+<wbr>		represents a word break opportunity—a
+		position within text where the browser
+		may optionally break a line, though its
+		line-breaking rules would not otherwise
+		create a break at that location.
 
 HTML supports various multimedia resources such as
 images, audio, and video.  Element 	Description
