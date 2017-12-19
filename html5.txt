@@ -785,20 +785,26 @@ challenge 	<keygen> 	A challenge string that
 charset 	<meta>,         Declares the character  
 		<script> 	encoding of the page or 
 				script.                 
-				
-checked 	<command>, <input> 	Indicates
-whether the element should be checked on page load.
-cite 	<blockquote>, <del>, <ins>, <q>
-Contains a URI which points to the source of the quote
-or change.
-class 	Global attribute 	Often used with CSS to
-style elements with common properties.
-code 	<applet> 	Specifies the URL of the
-applet's class file to be loaded and executed.
+checked 	<command>,      Indicates whether the 
+		<input> 	element should be     
+				checked on page load. 
+cite 		<blockquote>,   Contains a URI which    
+		<del>, <ins>,   points to the source of 
+		<q>             the quote or change.    
+class 		Global          Often used with CSS to 
+		attribute 	style elements with    
+				common properties.     
+code 		<applet> 	Specifies the URL of
+				the applet's class file
+				to be loaded and
+				executed.
 codebase 	<applet> 	This attribute gives
-the absolute or relative URL of the directory where
-applets' .class files referenced by the code attribute
-are stored.
+				the absolute or
+				relative URL of the
+				directory where
+				applets' .class files
+				referenced by the code
+				attribute are stored.
 color 	<basefont>, <font>, <hr> 	
 
 This attribute sets the text color using either a named
