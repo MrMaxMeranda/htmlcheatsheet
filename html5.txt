@@ -379,33 +379,39 @@ always easy to interact with.
 		for different display device scenarios.
 <source> 	specifies multiple media resources for
 		the <picture>, the <audio> element, or
-		the <video> element.
-It is an empty element. It is commonly used to serve
-the same media content in multiple formats supported by
-different browsers.  Scripting
+		the <video> element.  It is an empty
+		element. It is commonly used to serve
+		the same media content in multiple
+		formats supported by different
+		browsers.
+
+SCRIPTING:
 
 In order to create dynamic content and Web
 applications, HTML supports the use of scripting
 languages, most prominently JavaScript. Certain
-elements support this capability.  Element
-Description <canvas> 	Use the HTML <canvas> element
-with either the canvas scripting API or the WebGL API
-to draw graphics and animations.  <noscript> 	The
-HTML <noscript> element defines a section of HTML to be
-inserted if a script type on the page is unsupported or
-if scripting is currently turned off in the browser.
-<script> 	The HTML <script> element is used to
-embed or reference executable code; this is typically
-used to embed or refer to JavaScript code.  Demarcating
-edits
+elements support this capability.
+<canvas> 	use with either the canvas scripting
+		API or the WebGL API to draw graphics
+		and animations.
+<noscript> 	defines a section of HTML to be
+		inserted if a script type on the page
+		is unsupported or if scripting is
+		currently turned off in the browser.
+<script> 	used to embed or reference executable
+		code; this is typically used to embed
+		or refer to JavaScript code.
+
+DEMARCATING EDITS:
 
 These elements let you provide indications that
-specific parts of the text have been altered.  Element
-Description <del> 	The HTML <del> element
-represents a range of text that has been deleted from a
-document.  <ins> 	The HTML <ins> element
-represents a range of text that has been added to a
-document.  Table content
+specific parts of the text have been altered.
+<del> 		represents a range of text that has
+		been deleted from a document.
+<ins> 		represents a range of text that has
+		been added to a document.
+		
+TABLE CONTENT:
 
 The elements here are used to create and handle tabular
 data.  Element 	Description <caption> 	The HTML Table
