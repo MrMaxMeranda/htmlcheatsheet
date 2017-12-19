@@ -317,55 +317,69 @@ arbitrary piece of text.
 		line-breaking rules would not otherwise
 		create a break at that location.
 
+IMAGE AND MULTIMEDIA
+
 HTML supports various multimedia resources such as
-images, audio, and video.  Element 	Description
-<area> 	The HTML <area> element defines a hot-spot
-region on an image, and optionally associates it with a
-hypertext link. This element is used only within a
-<map> element.  <audio> 	The HTML <audio>
-element is used to embed sound content in documents. It
-may contain one or more audio sources, represented
-using the src attribute or the <source> element: the
-browser will choose the most suitable one. It can also
-be the destination for streamed media, using a
-MediaStream.  <img> 	The HTML <img> element embeds
-an image into the document.  <map> 	The HTML <map>
-element is used with <area> elements to define an image
-map (a clickable link area).  <track> 	The HTML
-<track> element is used as a child of the media
-elements <audio> and <video>. It lets you specify timed
-text tracks (or time-based data), for example to
-automatically handle subtitles. The tracks are
-formatted in WebVTT format (.vtt files) — Web Video
-Text Tracks.  <video> 	Use the HTML <video> element to
-embed video content in a document.  Embedded content
+images, audio, and video.
+<area>		defines a hot-spot region on an image,
+		and optionally associates it with a
+		hypertext link. This element is used
+		only within a <map> element.
+<audio>		is used to embed sound content in
+		documents. It may contain one or more
+		audio sources, represented using the
+		src attribute or the <source> element:
+		the browser will choose the most
+		suitable one. It can also be the
+		destination for streamed media, using a
+		MediaStream.
+<img>		embeds an image into the document.
+<map>		is used with <area> elements to define
+		an image map (a clickable link area).
+<track> 	is used as a child of the media
+		elements <audio> and <video>. It lets
+		you specify timed text tracks (or
+		time-based data), for example to
+		automatically handle subtitles. The
+		tracks are formatted in WebVTT format
+		(.vtt files) — Web Video Text Tracks.
+<video> 	embed video content in a document.
+
+Embedded content
 
 In addition to regular multimedia content, HTML can
 include a variety of other content, even if it's not
-always easy to interact with.  Element 	Description
-<applet> 	The obsolete HTML Applet Element
-(<applet>) embeds a Java applet into the document; this
-element has been deprecated in favor of <object>.
-<embed> 	The HTML <embed> element embeds
-external content at the specified point in the
-document. This content is provided by an external
-application or other source of interactive content such
-as a browser plug-in.  <noembed> 	The <noembed>
-element is an obsolete, non-standard way to provide
-alternative, or "fallback", content for browsers that
-do not support the <embed> element or do not support
-the type of embedded content an author wishes to use.
+always easy to interact with.
+<applet> 	an obsolete Applet Element that embeds
+		a Java applet into the document; this
+		element has been deprecated in favor of
+		<object>.
+<embed> 	embeds external content at the
+		specified point in the document. This
+		content is provided by an external
+		application or other source of
+		interactive content such as a browser
+		plug-in.
+<noembed>	an obsolete, non-standard way to provide
+		alternative, or "fallback", content for
+		browsers that do not support the
+		<embed> element or do not support the
+		type of embedded content an author
+		wishes to use.
 <object> 	The HTML <object> element represents an
-external resource, which can be treated as an image, a
-nested browsing context, or a resource to be handled by
-a plugin.  <param> 	The HTML <param> element
-defines parameters for an <object> element.  <picture>
-The HTML <picture> element serves as a container for
-zero or more <source> elements and one <img> element to
-provide versions of an image for different display
-device scenarios.  <source> 	The HTML <source>
-element specifies multiple media resources for the
-<picture>, the <audio> element, or the <video> element.
+		external resource, which can be treated
+		as an image, a nested browsing context,
+		or a resource to be handled by a
+		plugin.
+<param> 	defines parameters for an <object>
+		element.  <picture> The HTML <picture>
+		element serves as a container for zero
+		or more <source> elements and one <img>
+		element to provide versions of an image
+		for different display device scenarios.
+<source> 	specifies multiple media resources for
+		the <picture>, the <audio> element, or
+		the <video> element.
 It is an empty element. It is commonly used to serve
 the same media content in multiple formats supported by
 different browsers.  Scripting
