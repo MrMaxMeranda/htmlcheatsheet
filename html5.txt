@@ -500,24 +500,30 @@ in the HTML forms guide.
 INTERACTIVE ELEMENTS:
 
 HTML offers a selection of elements which help to
-create interactive user interface objects.  Element
-Description <details> 	The HTML <details> element is
-used as a disclosure widget from which the user can
-retrieve additional information.  <dialog> 	The
-HTML <dialog> element represents a dialog box or other
-interactive component, such as an inspector or window.
-<menu> 	The HTML <menu> element represents a group of
-commands that a user can perform or activate. This
-includes both list menus, which might appear across the
-top of a screen, as well as context menus, such as
-those that might appear underneath a button after it
-has been clicked.  <menuitem> 	The HTML <menuitem>
-element represents a command that a user is able to
-invoke through a popup menu. This includes context
-menus, as well as menus that might be attached to a
-menu button.  <summary> 	The HTML <summary>
-element is used as a summary, caption, or legend for
-the content of a <details> element.  Web Components
+create interactive user interface objects.
+<details> 	is used as a disclosure widget from
+		which the user can retrieve additional
+		information.
+<dialog> 	represents a dialog box or other
+		interactive component, such as an
+		inspector or window.
+<menu>		represents a group of commands that a
+		user can perform or activate. This
+		includes both list menus, which might
+		appear across the top of a screen, as
+		well as context menus, such as those
+		that might appear underneath a button
+		after it has been clicked.
+<menuitem>	represents a command that a user is
+		able to invoke through a popup menu.
+		This includes context menus, as well as
+		menus that might be attached to a menu
+		button.
+<summary>	is used as a summary, caption, or
+		legend for the content of a <details>
+		element.
+
+WEB COMPONENTS:
 
 Web Components is an HTML-related technology which
 makes it possible to, essentially, create and use
