@@ -894,13 +894,22 @@ enctype 	<form> 		Defines the content
 for 		<label>,        Describes elements    
 		<output> 	which belongs to this 
 				one.                  
-form 	<button>, <fieldset>, <input>, <keygen>,
-<label>, <meter>, <object>, <output>, <progress>,
-<select>, <textarea> 	Indicates the form that is the
-owner of the element.
-formaction 	<input>, <button> 	Indicates the
-action of the element, overriding the action defined in
-the <form>.
+form 		<button>,       Indicates the form that 
+		<fieldset>,     is the owner of the     
+		<input>,        element.                
+		<keygen>,
+		<label>,
+		<meter>,
+		<object>,
+		<output>,
+		<progress>,
+		<select>,
+		<textarea> 	
+formaction 	<input>,        Indicates the action of 
+		<button> 	the element, overriding 
+				the action defined in   
+				the <form>.             
+				
 headers 	<td>, <th> 	IDs of the <th>
 elements which applies to this element.
 height 	<canvas>, <embed>, <iframe>, <img>, <input>,
