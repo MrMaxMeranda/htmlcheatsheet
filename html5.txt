@@ -805,48 +805,69 @@ codebase 	<applet> 	This attribute gives
 				applets' .class files
 				referenced by the code
 				attribute are stored.
-color 	<basefont>, <font>, <hr> 	
-
-This attribute sets the text color using either a named
-color or a color specified in the hexadecimal #RRGGBB
-format.
-
-Note: This is a legacy attribute. Please use the CSS
-color property instead.
-cols 	<textarea> 	Defines the number of columns
-in a textarea.
+color		<basefont>,     This attribute sets the 
+		<font>, <hr> 	text color using either 
+                                a named color or a      
+				color specified in the  
+				hexadecimal #RRGGBB     
+				format.                 
+				Note: This is a legacy
+				attribute. Please use
+				the CSS color property
+				instead.
+cols 		<textarea> 	Defines the number of
+				columns in a textarea.
 colspan 	<td>, <th> 	The colspan attribute
-defines the number of columns a cell should span.
-content 	<meta> 	A value associated with
-http-equiv or name depending on the context.
-contenteditable 	Global attribute
-Indicates whether the element's content is editable.
-contextmenu 	Global attribute 	Defines the ID
-of a <menu> element which will serve as the element's
-context menu.
-controls 	<audio>, <video> 	Indicates
-whether the browser should show playback controls to
-the user.
-coords 	<area> 	A set of values specifying the
-coordinates of the hot-spot region.
-crossorigin 	<audio>, <img>, <link>, <script>,
-<video> 	How the element handles cross-origin
-requests
-data 	<object> 	Specifies the URL of the
-resource.
-data-* 	Global attribute 	Lets you attach custom
-attributes to an HTML element.
-datetime 	<del>, <ins>, <time> 	Indicates the
-date and time associated with the element.
+				defines the number of
+				columns a cell should
+				span.
+content 	<meta> 		A value associated with
+				http-equiv or name
+				depending on the
+				context.
+contenteditable	Global          Indicates whether the 
+		attribute       element's content is  
+				editable.             
+contextmenu 	Global          Defines the ID of a     
+		attribute 	<menu> element which    
+				will serve as the       
+				element's context menu. 
+controls 	<audio>,        Indicates whether the 
+		<video> 	browser should show   
+				playback controls to  
+				the user.             
+coords 		<area> 		A set of values
+				specifying the
+				coordinates of the
+				hot-spot region.
+crossorigin 	<audio>, <img>, How the element handles 
+		<link>,         cross-origin requests.
+		<script>,
+		<video> 	
+data 		<object> 	Specifies the URL of
+				the resource.
+data-* 		Global          Lets you attach custom 
+		attribute 	attributes to an HTML  
+				element.               
+datetime 	<del>, <ins>,   Indicates the date and 
+		<time> 		time associated with   
+				the element.           
 default 	<track> 	Indicates that the
-track should be enabled unless the user's preferences
-indicate something different.
-defer 	<script> 	Indicates that the script
-should be executed after the page has been parsed.
-dir 	Global attribute 	Defines the text
-direction. Allowed values are ltr (Left-To-Right) or
-rtl (Right-To-Left)
-dirname 	<input>, <textarea> 	 
+				track should be enabled
+				unless the user's
+				preferences indicate
+				something different.
+defer 		<script> 	Indicates that the script
+				should be executed
+				after the page has been
+				parsed.
+dir 		Global          Defines the text       
+		attribute 	direction. Allowed     
+				values are ltr         
+				(Left-To-Right) or rtl 
+				(Right-To-Left)        
+dirname 	<input>,
+		<textarea> 	 
 disabled 	<button>, <command>, <fieldset>,
 <input>, <keygen>, <optgroup>, <option>, <select>,
 <textarea> 	Indicates whether the user can interact
