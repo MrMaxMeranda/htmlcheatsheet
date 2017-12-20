@@ -723,6 +723,7 @@ NAME
 accept 		<form>,		List of types the
 		<input> 	server accepts,
 				typically a file type.
+				Obsolete.
 accept-charset 	<form> 		List of supported charsets.
 accesskey 	Global          Defines a
 		attribute 	keyboard shortcut to
@@ -735,7 +736,7 @@ action 		<form>		The URI of a program
 align 		<applet>,       Specifies the
 		<caption>,      horizontal alignment of
 		<col>,          the element.
-		<colgroup>,
+		<colgroup>,	Obsolete.
 		<hr>, <iframe>,
 		<img>, <table>,
 		<tbody>, <td>,
@@ -745,24 +746,23 @@ alt 		<applet>,       Alternative text in
 		<area>, <img>,  case an image can't be
 		<input>         displayed.
 async 		<script> 	Indicates that the
-				script should be
+		(true/false) 	script should be
 				executed
 				asynchronously.
-autocomplete 	<form>,
-		<input> 	Indicates whether
-				controls in this form
-				can by default have
+autocomplete 	<form>,         Indicates whether
+		<input> 	controls in this form
+		(on/off)	can by default have
 				their values
 				automatically completed
 				by the browser.
 autofocus 	<button>,       The element should be
 		<input>,        automatically focused
 		<keygen>,       after the page loaded.
-		<select>,
+		<select>,       (true/false)
 		<textarea>
 autoplay 	<audio>,        The audio or video
 		<video> 	should play as soon as
-				possible.
+		(true/false)	possible.
 bgcolor 	<body>, <col>,  Background color of the
 		<colgroup>,     element.
 		<marquee>,      Note: This is a legacy
@@ -780,14 +780,14 @@ buffered 	<audio>,        Contains the time range
 		<video> 	of already buffered
 				media.
 challenge 	<keygen> 	A challenge string that
-				is submitted along with
+		Obsolete.       is submitted along with
 				the public key.
 charset 	<meta>,         Declares the character
 		<script> 	encoding of the page or
-				script.
+		(UTF-8)		script.
 checked 	<command>,      Indicates whether the
 		<input> 	element should be
-				checked on page load.
+		Obsolete.	checked on page load.
 cite 		<blockquote>,   Contains a URI which
 		<del>, <ins>,   points to the source of
 		<q>             the quote or change.
