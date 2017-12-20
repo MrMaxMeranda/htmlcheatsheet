@@ -948,21 +948,26 @@ id 		Global          Often used with CSS to
 integrity 	<link>,         Security Feature that    
 		<script>  	allows browsers to       
                                 verify what they fetch.  
-ismap 	<img> 	Indicates that the image is part of a
-server-side image map.
-itemprop 	Global attribute 	 
+ismap 		<img> 		Indicates that the
+				image is part of a
+				server-side image map.
+itemprop 	Global
+		attribute 	 
 keytype 	<keygen> 	Specifies the type of
-key generated.
-kind 	<track> 	Specifies the kind of text
-track.
-label 	<track> 	Specifies a user-readable title
-of the text track.
-lang 	Global attribute 	Defines the language
-used in the element.
+				key generated.
+kind 		<track> 	Specifies the kind of
+				text track.
+label 		<track> 	Specifies a
+				user-readable title of
+				the text track.
+lang 		Global          Defines the language 
+		attribute 	used in the element. 
 language 	<script> 	Defines the script
-language used in the element.
-list 	<input> 	Identifies a list of
-pre-defined options to suggest to the user.
+				language used in the
+				element.
+list 		<input> 	Identifies a list of
+				pre-defined options to
+				suggest to the user.
 loop 	<audio>, <bgsound>, <marquee>, <video>
 Indicates whether the media should start playing from
 the start when it's finished.
