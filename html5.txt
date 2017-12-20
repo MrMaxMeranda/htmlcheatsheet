@@ -34,12 +34,12 @@ the information.
 <style> 	contains style information for a
 		document, or part of a document.
 
-SECTIONING ROOT
+SECTIONING ROOT:
 <body>		represents the content of an HTML
 		document. There can be only one <body>
 		element in a document.
 
-CONTENT SECTIONING
+CONTENT SECTIONING:
 
 Allows you to organize the document content into
 logical pieces. Use this to create a broad outline for
@@ -172,7 +172,7 @@ structure of that content.
 <ul>		represents an unordered list of items,
 		typically rendered as a bulleted list.
 
-INLINE TEXT SEMANTICS
+INLINE TEXT SEMANTICS:
 
 Use the HTML inline text semantic to define the
 meaning, structure, or style of a word, line, or any
@@ -326,7 +326,7 @@ arbitrary piece of text.
 		line-breaking rules would not otherwise
 		create a break at that location.
 
-IMAGE AND MULTIMEDIA
+IMAGE AND MULTIMEDIA:
 
 HTML supports various multimedia resources such as
 images, audio, and video.
@@ -354,7 +354,7 @@ images, audio, and video.
 		(.vtt files) — Web Video Text Tracks.
 <video> 	embed video content in a document.
 
-Embedded content
+EMBEDDED CONTENT:
 
 In addition to regular multimedia content, HTML can
 include a variety of other content, even if it's not
@@ -456,7 +456,7 @@ data.
 		<td> elements create header and data
 		cells, respectively, within the row.
 
-Forms
+FORMS:
 
 HTML provides a number of elements which can be used
 together to create forms which the user can fill out
@@ -716,7 +716,7 @@ values that configure the elements or adjust their
 behavior in various ways to meet the criteria the users
 want.
 
-ATTRIBUTE LIST
+ATTRIBUTE LIST:
 
 ATTRIBUTE 	ELEMENTS 	DESCRIPTION
 NAME
@@ -787,7 +787,7 @@ charset 	<meta>,         Declares the character
 		(UTF-8)		script.
 checked 	<command>,      Indicates whether the
 		<input> 	element should be
-		Obsolete.	checked on page load.
+		         	checked on page load.
 cite 		<blockquote>,   Contains a URI which
 		<del>, <ins>,   points to the source of
 		<q>             the quote or change.
@@ -1143,7 +1143,7 @@ width 		<canvas>,       For the elements listed
 wrap 		<textarea> 	Indicates whether the
 				text should be wrapped.
 
-Content versus IDL attributes
+CONTENT VERSUS IDL ATTRIBUTES:
 
 In HTML, most attributes have two faces: the content
 attribute and the IDL attribute.
@@ -1199,7 +1199,7 @@ oddly (select.size, for example) and you should read
 the specifications to understand how exactly they
 behave.
 
-Script macros
+SCRIPT MACROS:
 
 Differently from text nodes, which might always be the
 result of a <script> element placed in the same
