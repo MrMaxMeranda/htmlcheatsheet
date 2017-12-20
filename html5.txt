@@ -909,39 +909,45 @@ formaction 	<input>,        Indicates the action of
 		<button> 	the element, overriding 
 				the action defined in   
 				the <form>.             
-				
 headers 	<td>, <th> 	IDs of the <th>
-elements which applies to this element.
-height 	<canvas>, <embed>, <iframe>, <img>, <input>,
-<object>, <video> 	
-
-Specifies the height of elements listed here. For all
-other elements, use the CSS height property.
-
-Note: In some instances, such as <div>, this is a
-legacy attribute, in which case the CSS height property
-should be used instead.
-hidden 	Global attribute 	Prevents rendering of
-given element, while keeping child elements, e.g.
-script elements, active.
-high 	<meter> 	Indicates the lower bound of
-the upper range.
-href 	<a>, <area>, <base>, <link> 	 The URL of a
-linked resource.
-hreflang 	<a>, <area>, <link> 	Specifies the
-language of the linked resource.
+				elements which applies
+				to this element.
+height 		<canvas>,       Specifies the height of 
+		<embed>,        elements listed here.   
+		<iframe>,       For all other elements, 
+		<img>,          use the CSS height      
+		<input>,        property.               
+		<object>,       Note: In some           
+		<video> 	instances, such as      
+                                <div>, this is a legacy 
+				attribute, in which     
+				case the CSS height     
+				property should be used 
+				instead.                
+hidden 		Global          Prevents rendering of   
+		attribute 	given element, while    
+				keeping child elements, 
+				e.g.  script elements,  
+				active.                 
+high 		<meter> 	Indicates the lower
+				bound of the upper
+				range.
+href 		<a>, <area>,    The URL of a linked 
+		<base>, <link>	resource.           
+hreflang 	<a>, <area>,    Specifies the language  
+		<link> 		of the linked resource. 
 http-equiv 	<meta> 	 
-icon 	<command> 	Specifies a picture which
-represents the command.
-id 	Global attribute 	Often used with CSS to
-style a specific element. The value of this attribute
-must be unique.
-integrity 	<link>, <script>  	
-
-Security Feature that allows browsers to verify what
-they fetch. 
-
-MDN Link
+icon 		<command> 	Specifies a picture
+				which represents the
+				command.
+id 		Global          Often used with CSS to 
+		attribute 	style a specific       
+				element. The value of  
+				this attribute must be 
+				unique.                
+integrity 	<link>,         Security Feature that    
+		<script>  	allows browsers to       
+                                verify what they fetch.  
 ismap 	<img> 	Indicates that the image is part of a
 server-side image map.
 itemprop 	Global attribute 	 
