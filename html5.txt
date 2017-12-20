@@ -21,7 +21,7 @@ help software (search engines, browsers, etc.) use and
 render the page. Metadata for styles and scripts may be
 defined in the page or link to another file that has
 the information.
-<link> 		element specifies relationships between
+<link> 		Element specifies relationships between
 		the current document and an external
 		resource. Possible uses for this
 		element include defining a relational
@@ -35,7 +35,7 @@ the information.
 		document, or part of a document.
 
 SECTIONING ROOT:
-<body>		represents the content of an HTML
+<body>		Represents the content of an HTML
 		document. There can be only one <body>
 		element in a document.
 
@@ -53,14 +53,14 @@ of content.
 		information for its nearest <article>
 		or <body> ancestor; in the latter case,
 		it applies to the whole document.
-<article>	represents a self-contained composition
+<article>	Represents a self-contained composition
 		in a document, page, application, or
 		site, which is intended to be
 		independently distributable or reusable
 		(e.g., in syndication). Examples
 		include: a forum post, a magazine or
 		newspaper article, or a blog entry.
-<aside> 	represents a portion of a document
+<aside> 	Represents a portion of a document
 		whose content is only indirectly
 		related to the document's main content.
 <footer> 	The HTML <footer> element represents a
@@ -70,7 +70,7 @@ of content.
 		about the author of the section,
 		copyright data or links to related
 		documents.
-<header> 	represents introductory content,
+<header> 	Represents introductory content,
 		typically a group of introductory or
 		navigational aids. It may contain some
 		heading elements but also other
@@ -80,16 +80,16 @@ of content.
 <h3>, <h4>,	six levels of section headings. <h1> is
 <h5>, <h6> 	the highest section level and <h6> is
 		the lowest.
-<hgroup>	represents a multi-level heading for a
+<hgroup>	Represents a multi-level heading for a
 		section of a document. It groups a set
 		of <h1>–<h6> elements.
-<nav>		represents a section of a page whose
+<nav>		Represents a section of a page whose
 		purpose is to provide navigation links,
 		either within the current document or
 		to other documents.  Common examples of
 		navigation sections are menus, tables
 		of contents, and indexes.
-<section>	represents a standalone section — which
+<section>	Represents a standalone section — which
 		doesn't have a more specific semantic
 		element to represent it — contained
 		within an HTML document.
@@ -101,7 +101,7 @@ sections of content placed between the opening <body>
 and closing </body> tags. Important for accessibility
 and SEO, these elements identify the purpose or
 structure of that content.
-<blockquote> 	indicates that the enclosed text is an
+<blockquote> 	Indicates that the enclosed text is an
 		extended quotation. Usually, this is
 		rendered visually by indentation (see
 		Notes for how to change it). A URL for
@@ -109,17 +109,17 @@ structure of that content.
 		given using the cite attribute, while a
 		text representation of the source can
 		be given using the <cite> element.
-<dd> 		provides the details about or the
+<dd> 		Provides the details about or the
 		definition of the preceding term (<dt>)
 		in a description list (<dl>).
 <dir> 		Obsolete. Is used as a container for a
 		directory of files and/or folders,
 		potentially with styles and icons
 		applied by the user agent.
-<div> 		generic container for flow content. It
+<div> 		Generic container for flow content. It
 		has no effect on the content or layout
 		until styled using CSS.
-<dl>		represents a description list. The
+<dl>		Represents a description list. The
 		element encloses a list of groups of
 		terms (specified using the <dt>
 		element) and descriptions. (provided by
@@ -127,25 +127,25 @@ structure of that content.
 		element are to implement a glossary or
 		to display metadata (a list of
 		key-value pairs).
-<dt> 		specifies a term in a description or
+<dt> 		Specifies a term in a description or
 		definition list, and as such must be
 		used inside a <dl> element.
-<figcaption> 	represents a caption or a legend
+<figcaption> 	Represents a caption or a legend
 		associated with a figure or an
 		illustration described by the rest of
 		the data of the <figure> element which
 		is its immediate ancestor.
-<figure>	represents self-contained content,
+<figure>	Represents self-contained content,
 		frequently with a caption
 		(<figcaption>), and is typically
 		referenced as a single unit.
-<hr>		represents a thematic break between
+<hr>		Represents a thematic break between
 		paragraph-level elements (for example,
 		a change of scene in a story, or a
 		shift of topic with a section);
 		historically, this has been presented
 		as a horizontal rule or line.
-<li> 		is used to represent an item in a list.
+<li> 		Is used to represent an item in a list.
 		It must be contained in a parent
 		element: an ordered list (<ol>), an
 		unordered list (<ul>), or a menu
@@ -155,7 +155,7 @@ structure of that content.
 		are usually displayed with an ascending
 		counter on the left, such as a number
 		or letter.
-<main>		represents the main content of the
+<main>		Represents the main content of the
 		<body> of a document, portion of a
 		document, or application. The main
 		content area consists of content that
@@ -163,13 +163,13 @@ structure of that content.
 		the central topic of, a document or the
 		central functionality of an
 		application.
-<ol>		represents an ordered list of items,
+<ol>		Represents an ordered list of items,
 		typically rendered as a numbered list.
-<p>		represents a paragraph of text.
-<pre> 		represents preformatted text which is
+<p>		Represents a paragraph of text.
+<pre> 		Represents preformatted text which is
 		to be presented exactly as written in
 		the HTML file.
-<ul>		represents an unordered list of items,
+<ul>		Represents an unordered list of items,
 		typically rendered as a bulleted list.
 
 INLINE TEXT SEMANTICS:
@@ -177,22 +177,22 @@ INLINE TEXT SEMANTICS:
 Use the HTML inline text semantic to define the
 meaning, structure, or style of a word, line, or any
 arbitrary piece of text.
-<a>		creates a hyperlink to other web pages,
+<a>		Creates a hyperlink to other web pages,
 		files, locations within the same page,
 		email addresses, or any other URL.
-<abbr>		represents an abbreviation and
+<abbr>		Represents an abbreviation and
 		optionally provides a full description
 		for it. If present, the title attribute
 		must contain this full description and
 		nothing else.
-<b>		is used to draw the reader's attention
+<b>		Is used to draw the reader's attention
 		to the element's contents, which are
 		not otherwise granted special
 		importance.
-<bdi>		isolates a span of text that might be
+<bdi>		Isolates a span of text that might be
 		formatted in a different direction from
 		other text outside it.
-<bdo>		overrides the current directionality of
+<bdo>		Overrides the current directionality of
 		text, so that the text within is
 		rendered in a different direction.
 <br>		The HTML <br> element produces a line
@@ -200,46 +200,46 @@ arbitrary piece of text.
 		useful for writing a poem or an
 		address, where the division of lines is
 		significant.
-<cite>		is used to describe a reference to a
+<cite>		Is used to describe a reference to a
 		cited creative work, and must include
 		either the title or the URL of that
 		work.
-<code>		displays its contents styled in a
+<code>		Displays its contents styled in a
 		fashion intended to indicate that the
 		text is a short fragment of computer
 		code.
-<data>		links a given content with a
+<data>		Links a given content with a
 		machine-readable translation. If the
 		content is time- or date-related, the
 		<time> element must be used.
-<dfn>		is used to mark the usage instance of
+<dfn>		Is used to mark the usage instance of
 		the enclosed term which is itself
 		included within the definition of that
 		term.
-<em>		marks text that has stress emphasis.
+<em>		Marks text that has stress emphasis.
 		The <em> element can be nested, with
 		each level of nesting indicating a
 		greater degree of emphasis.
-<i>		represents a range of text that is set
+<i>		Represents a range of text that is set
 		off from the normal text for some
 		reason, for example, technical terms,
 		foreign language phrases, or fictional
 		character thoughts. It is typically
 		displayed in italic type.
-<kbd>		represents user input and produces an
+<kbd>		Represents user input and produces an
 		inline element displayed in the
 		browser's default monospace font.
-<nobr>		obsolete element prevents the text it
+<nobr>		Obsolete element prevents the text it
 		contains from automatically wrapping
 		accross multiple lines, potentially
 		resulting in the user having to scroll
 		horizontally to see the entire width of
 		the text.
-<mark>		represents highlighted text, i.e., a
+<mark>		Represents highlighted text, i.e., a
 		run of text marked for reference
 		purpose, due to its relevance in a
 		particular context.
-<q>		indicates that the enclosed text is a
+<q>		Indicates that the enclosed text is a
 		short inline quotation. Most modern
 		browsers implement this by surrounding
 		the text in quotation marks.
@@ -263,10 +263,10 @@ arbitrary piece of text.
 		<rb> elements can have both
 		pronunciation (<rt>) and semantic
 		(<rtc>) annotations.
-<ruby>		represents a ruby annotation. Ruby
+<ruby>		Represents a ruby annotation. Ruby
 		annotations are for showing
 		pronunciation of East Asian characters.
-<s>		renders text with a strikethrough, or a
+<s>		Renders text with a strikethrough, or a
 		line through it. Use the <s> element to
 		represent things that are no longer
 		relevant or no longer accurate.
