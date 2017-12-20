@@ -419,7 +419,7 @@ specific parts of the text have been altered.
 		been deleted from a document.
 <ins> 		represents a range of text that has
 		been added to a document.
-		
+
 TABLE CONTENT:
 
 The elements here are used to create and handle tabular
@@ -725,25 +725,25 @@ accept 		<form>,		List of types the
 				typically a file type.
 accept-charset 	<form> 		List of supported charsets.
 accesskey 	Global          Defines a
-		attribute 	keyboard shortcut to  
-				activate or add focus 
-				to the element.       
+		attribute 	keyboard shortcut to
+				activate or add focus
+				to the element.
 action 		<form>		The URI of a program
 				that processes the
 				information submitted
 				via the form.
-align 		<applet>,       Specifies the           
-		<caption>,      horizontal alignment of 
-		<col>,          the element.            
-		<colgroup>, 
+align 		<applet>,       Specifies the
+		<caption>,      horizontal alignment of
+		<col>,          the element.
+		<colgroup>,
 		<hr>, <iframe>,
 		<img>, <table>,
 		<tbody>, <td>,
 		<tfoot>, <th>,
-		<thead>, <tr> 	
-alt 		<applet>,       Alternative text in    
-		<area>, <img>,  case an image can't be 
-		<input>         displayed.             
+		<thead>, <tr>
+alt 		<applet>,       Alternative text in
+		<area>, <img>,  case an image can't be
+		<input>         displayed.
 async 		<script> 	Indicates that the
 				script should be
 				executed
@@ -755,45 +755,45 @@ autocomplete 	<form>,
 				their values
 				automatically completed
 				by the browser.
-autofocus 	<button>,       The element should be  
-		<input>,        automatically focused  
-		<keygen>,       after the page loaded. 
+autofocus 	<button>,       The element should be
+		<input>,        automatically focused
+		<keygen>,       after the page loaded.
 		<select>,
-		<textarea> 	
-autoplay 	<audio>,        The audio or video     
-		<video> 	should play as soon as 
-				possible.              
-bgcolor 	<body>, <col>,  Background color of the 
-		<colgroup>,     element.                
-		<marquee>,      Note: This is a legacy 
-		<table>,        attribute. Please use  
-		<tbody>,        the CSS                
-		<tfoot>,        background-color       
-		<td>, <th>,     property instead.      
-		<tr> 	
-border 		<img>,          The border width.       
-		<object>,       Note: This is a legacy  
-		<table> 	attribute. Please use   
-                                the CSS border property 
-				instead.                
-buffered 	<audio>,        Contains the time range 
-		<video> 	of already buffered     
-				media.                  
+		<textarea>
+autoplay 	<audio>,        The audio or video
+		<video> 	should play as soon as
+				possible.
+bgcolor 	<body>, <col>,  Background color of the
+		<colgroup>,     element.
+		<marquee>,      Note: This is a legacy
+		<table>,        attribute. Please use
+		<tbody>,        the CSS
+		<tfoot>,        background-color
+		<td>, <th>,     property instead.
+		<tr>
+border 		<img>,          The border width.
+		<object>,       Note: This is a legacy
+		<table> 	attribute. Please use
+                                the CSS border property
+				instead.
+buffered 	<audio>,        Contains the time range
+		<video> 	of already buffered
+				media.
 challenge 	<keygen> 	A challenge string that
 				is submitted along with
 				the public key.
-charset 	<meta>,         Declares the character  
-		<script> 	encoding of the page or 
-				script.                 
-checked 	<command>,      Indicates whether the 
-		<input> 	element should be     
-				checked on page load. 
-cite 		<blockquote>,   Contains a URI which    
-		<del>, <ins>,   points to the source of 
-		<q>             the quote or change.    
-class 		Global          Often used with CSS to 
-		attribute 	style elements with    
-				common properties.     
+charset 	<meta>,         Declares the character
+		<script> 	encoding of the page or
+				script.
+checked 	<command>,      Indicates whether the
+		<input> 	element should be
+				checked on page load.
+cite 		<blockquote>,   Contains a URI which
+		<del>, <ins>,   points to the source of
+		<q>             the quote or change.
+class 		Global          Often used with CSS to
+		attribute 	style elements with
+				common properties.
 code 		<applet> 	Specifies the URL of
 				the applet's class file
 				to be loaded and
@@ -805,12 +805,12 @@ codebase 	<applet> 	This attribute gives
 				applets' .class files
 				referenced by the code
 				attribute are stored.
-color		<basefont>,     This attribute sets the 
-		<font>, <hr> 	text color using either 
-                                a named color or a      
-				color specified in the  
-				hexadecimal #RRGGBB     
-				format.                 
+color		<basefont>,     This attribute sets the
+		<font>, <hr> 	text color using either
+                                a named color or a
+				color specified in the
+				hexadecimal #RRGGBB
+				format.
 				Note: This is a legacy
 				attribute. Please use
 				the CSS color property
@@ -825,33 +825,33 @@ content 	<meta> 		A value associated with
 				http-equiv or name
 				depending on the
 				context.
-contenteditable	Global          Indicates whether the 
-		attribute       element's content is  
-				editable.             
-contextmenu 	Global          Defines the ID of a     
-		attribute 	<menu> element which    
-				will serve as the       
-				element's context menu. 
-controls 	<audio>,        Indicates whether the 
-		<video> 	browser should show   
-				playback controls to  
-				the user.             
+contenteditable	Global          Indicates whether the
+		attribute       element's content is
+				editable.
+contextmenu 	Global          Defines the ID of a
+		attribute 	<menu> element which
+				will serve as the
+				element's context menu.
+controls 	<audio>,        Indicates whether the
+		<video> 	browser should show
+				playback controls to
+				the user.
 coords 		<area> 		A set of values
 				specifying the
 				coordinates of the
 				hot-spot region.
-crossorigin 	<audio>, <img>, How the element handles 
+crossorigin 	<audio>, <img>, How the element handles
 		<link>,         cross-origin requests.
 		<script>,
-		<video> 	
+		<video>
 data 		<object> 	Specifies the URL of
 				the resource.
-data-* 		Global          Lets you attach custom 
-		attribute 	attributes to an HTML  
-				element.               
-datetime 	<del>, <ins>,   Indicates the date and 
-		<time> 		time associated with   
-				the element.           
+data-* 		Global          Lets you attach custom
+		attribute 	attributes to an HTML
+				element.
+datetime 	<del>, <ins>,   Indicates the date and
+		<time> 		time associated with
+				the element.
 default 	<track> 	Indicates that the
 				track should be enabled
 				unless the user's
@@ -861,14 +861,14 @@ defer 		<script> 	Indicates that the script
 				should be executed
 				after the page has been
 				parsed.
-dir 		Global          Defines the text       
-		attribute 	direction. Allowed     
-				values are ltr         
-				(Left-To-Right) or rtl 
-				(Right-To-Left)        
-dirname 	<input>,        Indicates whether the  
-		<textarea> 	user can interact with  
-disabled 	<button>,       the element.           
+dir 		Global          Defines the text
+		attribute 	direction. Allowed
+				values are ltr
+				(Left-To-Right) or rtl
+				(Right-To-Left)
+dirname 	<input>,        Indicates whether the
+		<textarea> 	user can interact with
+disabled 	<button>,       the element.
 		<command>,
 		<fieldset>,
 		<input>,
@@ -876,27 +876,27 @@ disabled 	<button>,       the element.
 		<optgroup>,
 		<option>,
 		<select>,
-		<textarea> 	
+		<textarea>
 download 	<a>, <area> 	Indicates that the
 				hyperlink is to be used
 				for downloading a
 				resource.
-draggable 	Global          Defines whether the     
-		attribute 	element can be dragged. 
-dropzone 	Global          Indicates that the     
-		attribute 	element accept the     
-				dropping of content on 
-				it.                    
+draggable 	Global          Defines whether the
+		attribute 	element can be dragged.
+dropzone 	Global          Indicates that the
+		attribute 	element accept the
+				dropping of content on
+				it.
 enctype 	<form> 		Defines the content
 				type of the form date
 				when the method is
 				POST.
-for 		<label>,        Describes elements    
-		<output> 	which belongs to this 
-				one.                  
-form 		<button>,       Indicates the form that 
-		<fieldset>,     is the owner of the     
-		<input>,        element.                
+for 		<label>,        Describes elements
+		<output> 	which belongs to this
+				one.
+form 		<button>,       Indicates the form that
+		<fieldset>,     is the owner of the
+		<input>,        element.
 		<keygen>,
 		<label>,
 		<meter>,
@@ -904,55 +904,55 @@ form 		<button>,       Indicates the form that
 		<output>,
 		<progress>,
 		<select>,
-		<textarea> 	
-formaction 	<input>,        Indicates the action of 
-		<button> 	the element, overriding 
-				the action defined in   
-				the <form>.             
+		<textarea>
+formaction 	<input>,        Indicates the action of
+		<button> 	the element, overriding
+				the action defined in
+				the <form>.
 headers 	<td>, <th> 	IDs of the <th>
 				elements which applies
 				to this element.
-height 		<canvas>,       Specifies the height of 
-		<embed>,        elements listed here.   
-		<iframe>,       For all other elements, 
-		<img>,          use the CSS height      
-		<input>,        property.               
-		<object>,       Note: In some           
-		<video> 	instances, such as      
-                                <div>, this is a legacy 
-				attribute, in which     
-				case the CSS height     
-				property should be used 
-				instead.                
-hidden 		Global          Prevents rendering of   
-		attribute 	given element, while    
-				keeping child elements, 
-				e.g.  script elements,  
-				active.                 
+height 		<canvas>,       Specifies the height of
+		<embed>,        elements listed here.
+		<iframe>,       For all other elements,
+		<img>,          use the CSS height
+		<input>,        property.
+		<object>,       Note: In some
+		<video> 	instances, such as
+                                <div>, this is a legacy
+				attribute, in which
+				case the CSS height
+				property should be used
+				instead.
+hidden 		Global          Prevents rendering of
+		attribute 	given element, while
+				keeping child elements,
+				e.g.  script elements,
+				active.
 high 		<meter> 	Indicates the lower
 				bound of the upper
 				range.
-href 		<a>, <area>,    The URL of a linked 
-		<base>, <link>	resource.           
-hreflang 	<a>, <area>,    Specifies the language  
-		<link> 		of the linked resource. 
-http-equiv 	<meta> 	 
+href 		<a>, <area>,    The URL of a linked
+		<base>, <link>	resource.
+hreflang 	<a>, <area>,    Specifies the language
+		<link> 		of the linked resource.
+http-equiv 	<meta>
 icon 		<command> 	Specifies a picture
 				which represents the
 				command.
-id 		Global          Often used with CSS to 
-		attribute 	style a specific       
-				element. The value of  
-				this attribute must be 
-				unique.                
-integrity 	<link>,         Security Feature that    
-		<script>  	allows browsers to       
-                                verify what they fetch.  
+id 		Global          Often used with CSS to
+		attribute 	style a specific
+				element. The value of
+				this attribute must be
+				unique.
+integrity 	<link>,         Security Feature that
+		<script>  	allows browsers to
+                                verify what they fetch.
 ismap 		<img> 		Indicates that the
 				image is part of a
 				server-side image map.
 itemprop 	Global
-		attribute 	 
+		attribute
 keytype 	<keygen> 	Specifies the type of
 				key generated.
 kind 		<track> 	Specifies the kind of
@@ -960,54 +960,54 @@ kind 		<track> 	Specifies the kind of
 label 		<track> 	Specifies a
 				user-readable title of
 				the text track.
-lang 		Global          Defines the language 
-		attribute 	used in the element. 
+lang 		Global          Defines the language
+		attribute 	used in the element.
 language 	<script> 	Defines the script
 				language used in the
 				element.
 list 		<input> 	Identifies a list of
 				pre-defined options to
 				suggest to the user.
-loop 		<audio>,        Indicates whether the  
-		<bgsound>,      media should start     
-		<marquee>,      playing from the start 
-		<video>         when it's finished.    
+loop 		<audio>,        Indicates whether the
+		<bgsound>,      media should start
+		<marquee>,      playing from the start
+		<video>         when it's finished.
 low 		<meter> 	Indicates the upper
 				bound of the lower
 				range.
 manifest 	<html> 		Specifies the URL of
 				the document's cache
 				manifest.
-max 		<input>,        Indicates the maximum 
-		<meter>,        value allowed.        
-		<progress> 	Defines the maximum     
-maxlength 	<input>,        number of characters    
-		<textarea> 	allowed in the element. 
-minlength 	<input>,        Defines the minimum     
-		<textarea> 	number of characters    
-				allowed in the element. 
-media 		<a>, <area>,    Specifies a hint of the 
-		<link>,         media for which the     
-		<source>,       linked resource was     
-		<style>         designed.               
+max 		<input>,        Indicates the maximum
+		<meter>,        value allowed.
+		<progress> 	Defines the maximum
+maxlength 	<input>,        number of characters
+		<textarea> 	allowed in the element.
+minlength 	<input>,        Defines the minimum
+		<textarea> 	number of characters
+				allowed in the element.
+media 		<a>, <area>,    Specifies a hint of the
+		<link>,         media for which the
+		<source>,       linked resource was
+		<style>         designed.
 method 		<form> 		Defines which HTTP
 				method to use when
 				submitting the form.
 				Can be GET (default) or
 				POST.
-min 		<input>,        Indicates the minimum 
-		<meter> 	value allowed.        
-multiple 	<input>,        Indicates whether       
-		<select> 	multiple values can be  
-				entered in an input of  
-				the type email or file. 
-muted 		<audio>,        Indicates whether the   
-		<video> 	audio will be initially 
-				silenced on page load.  
-name 		<button>,       Name of the element.    
-		<form>,         For example used by the 
-		<fieldset>,     server to identify the  
-		<iframe>,       fields in form submits. 
+min 		<input>,        Indicates the minimum
+		<meter> 	value allowed.
+multiple 	<input>,        Indicates whether
+		<select> 	multiple values can be
+				entered in an input of
+				the type email or file.
+muted 		<audio>,        Indicates whether the
+		<video> 	audio will be initially
+				silenced on page load.
+name 		<button>,       Name of the element.
+		<form>,         For example used by the
+		<fieldset>,     server to identify the
+		<iframe>,       fields in form submits.
 		<input>,
 		<keygen>,
 		<object>,
@@ -1015,7 +1015,7 @@ name 		<button>,       Name of the element.
 		<select>,
 		<textarea>,
 		<map>, <meta>,
-		<param> 	
+		<param>
 novalidate 	<form> 		This attribute
 				indicates that the form
 				shouldn't be validated
@@ -1029,28 +1029,28 @@ pattern 	<input> 	Defines a regular
 				expression which the
 				element's value will be
 				validated against.
-ping 		<a>, <area> 	 
-placeholder 	<input>,        Provides a hint to the 
-		<textarea> 	user of what can be    
-				entered in the field.  
+ping 		<a>, <area>
+placeholder 	<input>,        Provides a hint to the
+		<textarea> 	user of what can be
+				entered in the field.
 poster 		<video> 	A URL indicating a
 				poster frame to show
 				until the user plays or
 				seeks.
-preload 	<audio>,        Indicates whether the   
-		<video> 	whole resource, parts   
-				of it or nothing should 
-				be preloaded.           
-radiogroup 	<command> 	 
-readonly 	<input>,        Indicates whether the  
-		<textarea> 	element can be edited. 
-rel 		<a>, <area>,    Specifies the        
-		<link> 		relationship of the  
-				target object to the 
-				link object.         
-required 	<input>,        Indicates whether this 
-		<select>,       element is required to 
-		<textarea>      fill out or not.       
+preload 	<audio>,        Indicates whether the
+		<video> 	whole resource, parts
+				of it or nothing should
+				be preloaded.
+radiogroup 	<command>
+readonly 	<input>,        Indicates whether the
+		<textarea> 	element can be edited.
+rel 		<a>, <area>,    Specifies the
+		<link> 		relationship of the
+				target object to the
+				link object.
+required 	<input>,        Indicates whether this
+		<select>,       element is required to
+		<textarea>      fill out or not.
 reversed 	<ol> 		Indicates whether the
 				list should be
 				displayed in a
@@ -1061,85 +1061,85 @@ rows 		<textarea> 	Defines the number of
 rowspan 	<td>, <th> 	Defines the number of
 				rows a table cell
 				should span over.
-sandbox 	<iframe> 	 
-scope 		<th> 	 
-scoped 		<style> 	 
-seamless 	<iframe> 	 
+sandbox 	<iframe>
+scope 		<th>
+scoped 		<style>
+seamless 	<iframe>
 selected 	<option> 	Defines a value which
 				will be selected on
 				page load.
-shape 		<a>, <area> 	 
-size 		<input>,        Defines the width of   
-		<select> 	the element (in        
-				pixels). If the        
-				element's type         
-				attribute is text or   
-				password then it's the 
-				number of characters.  
+shape 		<a>, <area>
+size 		<input>,        Defines the width of
+		<select> 	the element (in
+				pixels). If the
+				element's type
+				attribute is text or
+				password then it's the
+				number of characters.
 sizes 		<link>, <img>,
-		<source> 	 
-slot 		Global          Assigns a slot in a    
-		attribute 	shadow DOM shadow tree 
-				to an element.         
+		<source>
+slot 		Global          Assigns a slot in a
+		attribute 	shadow DOM shadow tree
+				to an element.
 span 		<col>,
-		<colgroup> 	 
-spellcheck 	Global          Indicates whether spell 
-		attribute 	checking is allowed for 
-				the element.            
-src 		<audio>,        The URL of the      
-		<embed>,        embeddable content. 
+		<colgroup>
+spellcheck 	Global          Indicates whether spell
+		attribute 	checking is allowed for
+				the element.
+src 		<audio>,        The URL of the
+		<embed>,        embeddable content.
 		<iframe>,
 		<img>, <input>,
 		<script>,
 		<source>,
 		<track>,
-		<video> 	
-srcdoc 		<iframe> 	 
-srclang 	<track> 	 
-srcset 		<img> 	 
+		<video>
+srcdoc 		<iframe>
+srclang 	<track>
+srcset 		<img>
 start 		<ol> 		Defines the first
 				number if other than 1.
-step 		<input> 	 
-style 		Global          Defines CSS styles     
-		attribute 	which will override    
-				styles previously set. 
-summary 	<table> 	 
-tabindex 	Global          Overrides the browser's 
-		attribute 	default tab order and   
-				follows the one         
-				specified instead.      
+step 		<input>
+style 		Global          Defines CSS styles
+		attribute 	which will override
+				styles previously set.
+summary 	<table>
+tabindex 	Global          Overrides the browser's
+		attribute 	default tab order and
+				follows the one
+				specified instead.
 target 		<a>, <area>,
-		<base>, <form> 	 
-title 		Global          Text to be displayed in 
-		attribute 	a tooltip when hovering 
-				over the element.       
-type 		<button>,       Defines the type of the 
-		<input>,        element.                
+		<base>, <form>
+title 		Global          Text to be displayed in
+		attribute 	a tooltip when hovering
+				over the element.
+type 		<button>,       Defines the type of the
+		<input>,        element.
 		<command>,
 		<embed>,
 		<object>,
 		<script>,
 		<source>,
-		<style>, <menu> 
+		<style>, <menu>
 usemap 		<img>,
 		<input>,
-		<object> 	 
-value 		<button>,       Defines a default value 
-		<option>,       which will be displayed 
-		<input>, <li>,  in the element on page  
-		<meter>,        load.                   
+		<object>
+value 		<button>,       Defines a default value
+		<option>,       which will be displayed
+		<input>, <li>,  in the element on page
+		<meter>,        load.
 		<progress>,
-		<param> 	
-width 		<canvas>,       For the elements listed 
-		<embed>,        here, this establishes  
-		<iframe>,       the element's width.    
-		<img>, <input>, Note: For all other     
-		<object>,       instances, such as      
-		<video> 	<div>, this is a legacy 
-                                attribute, in which     
-				case the CSS width      
-				property should be used 
-				instead.                
+		<param>
+width 		<canvas>,       For the elements listed
+		<embed>,        here, this establishes
+		<iframe>,       the element's width.
+		<img>, <input>, Note: For all other
+		<object>,       instances, such as
+		<video> 	<div>, this is a legacy
+                                attribute, in which
+				case the CSS width
+				property should be used
+				instead.
 wrap 		<textarea> 	Indicates whether the
 				text should be wrapped.
 
