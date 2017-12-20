@@ -2,4 +2,3 @@ To Do List:
 
 1 Order elements by relevance instead of alphabetically.
 2 Decide whether to have definitions start with capital letters or not
-3 Make sure TITLES end in :
