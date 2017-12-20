@@ -968,24 +968,33 @@ language 	<script> 	Defines the script
 list 		<input> 	Identifies a list of
 				pre-defined options to
 				suggest to the user.
-loop 	<audio>, <bgsound>, <marquee>, <video>
-Indicates whether the media should start playing from
-the start when it's finished.
-low 	<meter> 	Indicates the upper bound of
-the lower range.
-manifest 	<html> 	Specifies the URL of the
-document's cache manifest.
-max 	<input>, <meter>, <progress> 	Indicates the
-maximum value allowed.
-maxlength 	<input>, <textarea> 	Defines the
-maximum number of characters allowed in the element.
-minlength 	<input>, <textarea> 	Defines the
-minimum number of characters allowed in the element.
-media 	<a>, <area>, <link>, <source>, <style>
-Specifies a hint of the media for which the linked
-resource was designed.
-method 	<form> 	Defines which HTTP method to use when
-submitting the form. Can be GET (default) or POST.
+loop 		<audio>,        Indicates whether the  
+		<bgsound>,      media should start     
+		<marquee>,      playing from the start 
+		<video>         when it's finished.    
+low 		<meter> 	Indicates the upper
+				bound of the lower
+				range.
+manifest 	<html> 		Specifies the URL of
+				the document's cache
+				manifest.
+max 		<input>,        Indicates the maximum 
+		<meter>,        value allowed.        
+		<progress> 	Defines the maximum     
+maxlength 	<input>,        number of characters    
+		<textarea> 	allowed in the element. 
+minlength 	<input>,        Defines the minimum     
+		<textarea> 	number of characters    
+				allowed in the element. 
+media 		<a>, <area>,    Specifies a hint of the 
+		<link>,         media for which the     
+		<source>,       linked resource was     
+		<style>         designed.               
+method 		<form> 		Defines which HTTP
+				method to use when
+				submitting the form.
+				Can be GET (default) or
+				POST.
 min 	<input>, <meter> 	Indicates the minimum
 value allowed.
 multiple 	<input>, <select> 	Indicates
