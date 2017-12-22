@@ -279,7 +279,7 @@ arbitrary piece of text.
 		a computer program. It is usually
 		displayed in the browser's default
 		monotype font (such as Lucida Console).
-<small> 	makes the text font size one size
+<small> 	Makes the text font size one size
 		smaller (for example, from large to
 		medium, or from small to x-small) down
 		to the browser's minimum font size.  In
@@ -288,28 +288,28 @@ arbitrary piece of text.
 		print, including copyright and legal
 		text, independent of its styled
 		presentation.
-<span>		generic inline container for phrasing
+<span>		Generic inline container for phrasing
 		content, which does not inherently
 		represent anything. It can be used to
 		group elements for styling purposes
 		(using the class or id attributes), or
 		because they share attribute values,
 		such as lang.
-<strong> 	gives text strong importance and is
+<strong> 	Gives text strong importance and is
 		typically displayed in bold.
-<sub> 		defines a span of text that should be
+<sub> 		Defines a span of text that should be
 		displayed, for typographic reasons,
 		lower, and often smaller, than the main
 		span of text.
-<sup> 		defines a span of text that should be
+<sup> 		Defines a span of text that should be
 		displayed, for typographic reasons,
 		higher, and often smaller, than the
 		main span of text.
-<time>		represents either a time on a 24-hour
+<time>		Represents either a time on a 24-hour
 		clock or a precise date in the
 		Gregorian calendar (with optional time
 		and timezone information).
-<u> 		renders text with an underline, a line
+<u> 		Renders text with an underline, a line
 		under the baseline of its content. In
 		HTML5, this element represents a span
 		of text with an unarticulated, though
@@ -318,9 +318,9 @@ arbitrary piece of text.
 		as being a proper name in Chinese text
 		(a Chinese proper name mark), or
 		labeling the text as being misspelled.
-<var>		represents a variable in a mathematical
+<var>		Represents a variable in a mathematical
 		expression or a programming context.
-<wbr>		represents a word break opportunity—a
+<wbr>		Represents a word break opportunity—a
 		position within text where the browser
 		may optionally break a line, though its
 		line-breaking rules would not otherwise
@@ -330,11 +330,11 @@ IMAGE AND MULTIMEDIA:
 
 HTML supports various multimedia resources such as
 images, audio, and video.
-<area>		defines a hot-spot region on an image,
+<area>		Defines a hot-spot region on an image,
 		and optionally associates it with a
 		hypertext link. This element is used
 		only within a <map> element.
-<audio>		is used to embed sound content in
+<audio>		Is used to embed sound content in
 		documents. It may contain one or more
 		audio sources, represented using the
 		src attribute or the <source> element:
@@ -342,34 +342,34 @@ images, audio, and video.
 		suitable one. It can also be the
 		destination for streamed media, using a
 		MediaStream.
-<img>		embeds an image into the document.
+<img>		Embeds an image into the document.
 <map>		is used with <area> elements to define
 		an image map (a clickable link area).
-<track> 	is used as a child of the media
+<track> 	Is used as a child of the media
 		elements <audio> and <video>. It lets
 		you specify timed text tracks (or
 		time-based data), for example to
 		automatically handle subtitles. The
 		tracks are formatted in WebVTT format
 		(.vtt files) — Web Video Text Tracks.
-<video> 	embed video content in a document.
+<video> 	Embed video content in a document.
 
 EMBEDDED CONTENT:
 
 In addition to regular multimedia content, HTML can
 include a variety of other content, even if it's not
 always easy to interact with.
-<applet> 	an obsolete Applet Element that embeds
+<applet> 	An obsolete Applet Element that embeds
 		a Java applet into the document; this
 		element has been deprecated in favor of
 		<object>.
-<embed> 	embeds external content at the
+<embed> 	Embeds external content at the
 		specified point in the document. This
 		content is provided by an external
 		application or other source of
 		interactive content such as a browser
 		plug-in.
-<noembed>	an obsolete, non-standard way to provide
+<noembed>	An obsolete, non-standard way to provide
 		alternative, or "fallback", content for
 		browsers that do not support the
 		<embed> element or do not support the
@@ -380,13 +380,13 @@ always easy to interact with.
 		as an image, a nested browsing context,
 		or a resource to be handled by a
 		plugin.
-<param> 	defines parameters for an <object>
+<param> 	Defines parameters for an <object>
 		element.  <picture> The HTML <picture>
 		element serves as a container for zero
 		or more <source> elements and one <img>
 		element to provide versions of an image
 		for different display device scenarios.
-<source> 	specifies multiple media resources for
+<source> 	Specifies multiple media resources for
 		the <picture>, the <audio> element, or
 		the <video> element.  It is an empty
 		element. It is commonly used to serve
