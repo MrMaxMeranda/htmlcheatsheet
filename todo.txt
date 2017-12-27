@@ -1,4 +1,4 @@
 To Do List:
 
 1 Order elements by relevance instead of alphabetically.
-2 Decide whether to have definitions start with capital letters or not
+2 Make a section for <input> attributes, and check to see if the list of attributes is more exhaustive than it is.
