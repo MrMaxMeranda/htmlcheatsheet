@@ -46,13 +46,6 @@ logical pieces. Use this to create a broad outline for
 your page content, including header and footer
 navigation, and heading elements to identify sections
 of content.
-<address>	Indicates that the enclosed HTML
-		provides contact information for a
-		person or people, or for an
-		organization.supplies contact
-		information for its nearest <article>
-		or <body> ancestor; in the latter case,
-		it applies to the whole document.
 <article>	Represents a self-contained composition
 		in a document, page, application, or
 		site, which is intended to be
@@ -60,6 +53,13 @@ of content.
 		(e.g., in syndication). Examples
 		include: a forum post, a magazine or
 		newspaper article, or a blog entry.
+<address>	Indicates that the enclosed HTML
+		provides contact information for a
+		person or people, or for an
+		organization.supplies contact
+		information for its nearest <article>
+		or <body> ancestor; in the latter case,
+		it applies to the whole document.
 <aside> 	Represents a portion of a document
 		whose content is only indirectly
 		related to the document's main content.
@@ -76,13 +76,13 @@ of content.
 		heading elements but also other
 		elements like a logo, a search form, an
 		author name, and so on.
+<hgroup>	Represents a multi-level heading for a
+		section of a document. It groups a set
+		of <h1>–<h6> elements.
 <h1>, <h2>,	The HTML <h1>–<h6> elements represent
 <h3>, <h4>,	six levels of section headings. <h1> is
 <h5>, <h6> 	the highest section level and <h6> is
 		the lowest.
-<hgroup>	Represents a multi-level heading for a
-		section of a document. It groups a set
-		of <h1>–<h6> elements.
 <nav>		Represents a section of a page whose
 		purpose is to provide navigation links,
 		either within the current document or
