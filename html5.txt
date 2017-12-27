@@ -513,6 +513,9 @@ create interactive user interface objects.
 <details> 	Is used as a disclosure widget from
 		which the user can retrieve additional
 		information.
+-<summary>	Is used as a summary, caption, or
+		legend for the content of a <details>
+		element.
 <dialog> 	Represents a dialog box or other
 		interactive component, such as an
 		inspector or window.
@@ -523,14 +526,11 @@ create interactive user interface objects.
 		well as context menus, such as those
 		that might appear underneath a button
 		after it has been clicked.
-<menuitem>	Represents a command that a user is
+-<menuitem>	Represents a command that a user is
 		able to invoke through a popup menu.
 		This includes context menus, as well as
 		menus that might be attached to a menu
 		button.
-<summary>	Is used as a summary, caption, or
-		legend for the content of a <details>
-		element.
 
 WEB COMPONENTS:
 
