@@ -424,37 +424,37 @@ TABLE CONTENT:
 
 The elements here are used to create and handle tabular
 data.
-<caption> 	This table element specifies the
-		caption (or title) of a table, and if
-		used is always the first child of a
-		<table>.
-<col> 		Defines a column within a table and is
-		used for defining common semantics on
-		all common cells.  It is generally
-		found within a <colgroup> element.
-<colgroup> 	Defines a group of columns within a
-		table.
 <table> 	Represents tabular data — that is,
 		information presented in a
 		two-dimensional table comprised of rows
 		and columns of cells containing data.
-<tbody> 	Groups one or more <tr> elements as the
-		body of a <table> element.
-<td> 		Defines a cell of a table that contains
-		data. It participates in the table model.
-<tfoot> 	Defines a set of rows summarizing the
-		columns of the table.
-<th>		Defines a cell as header of a group of
-		table cells. The exact nature of this
-		group is defined by the scope and
-		headers attributes.
-<thead>		Defines a set of rows defining the head
+-<caption> 	This table element specifies the
+		caption (or title) of a table, and if
+		used is always the first child of a
+		<table>.
+-<thead>	Defines a set of rows defining the head
 		of the columns of the table.
-<tr> 		Specifies that the markup contained
+-<tbody> 	Groups one or more <tr> elements as the
+		body of a <table> element.
+-<tfoot> 	Defines a set of rows summarizing the
+		columns of the table.
+-<colgroup> 	Defines a group of columns within a
+		table.
+--<col> 	Defines a column within a table and is
+		used for defining common semantics on
+		all common cells.  It is generally
+		found within a <colgroup> element.
+-<tr> 		Specifies that the markup contained
 		inside the <tr> block comprises one row
 		of a table, inside which the <th> and
 		<td> elements create header and data
 		cells, respectively, within the row.
+--<td> 		Defines a cell of a table that contains
+		data. It participates in the table model.
+--<th>		Defines a cell as header of a group of
+		table cells. The exact nature of this
+		group is defined by the scope and
+		headers attributes.
 
 FORMS:
 
