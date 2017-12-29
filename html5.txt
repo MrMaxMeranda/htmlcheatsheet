@@ -1583,166 +1583,200 @@ placeholder 	HTML5 A hint to the user of what can be
 		the placeholder attribute is never
 		displayed to the user, so the form must
 		be understandable without it.
-readonly HTML5
-    This attribute indicates that the user cannot
-modify the value of the control. The value of the
-attribute is irrelevant. If you need read-write access
-to the input value, do not add the "readonly"
-attribute. It is ignored if the value of the type
-attribute is hidden, range, color, checkbox, radio,
-file, or a button type (such as button or submit).
-required HTML5
-    This attribute specifies that the user must fill in
-a value before submitting a form. It cannot be used
-when the type attribute is hidden, image, or a button
-type (submit, reset, or button). The :optional and
-:required CSS pseudo-classes will be applied to the
-field as appropriate.
-selectionDirection HTML5
-    The direction in which selection occurred. This is
-"forward" if the selection was made from left-to-right
-in an LTR locale or right-to-left in an RTL locale, or
-"backward" if the selection was made in the opposite
-direction. On platforms on which it's possible this
-value isn't known, the value can be "none"; for
-example, on macOS, the default direction is "none",
-then as the user begins to modify the selection using
-the keyboard, this will change to reflect the direction
-in which the selection is expanding.
-selectionEnd
-    The offset into the element's text content of the
-last selected character. If there's no selection, this
-value indicates the offset to the character following
-the current text input cursor position (that is, the
-position the next character typed would occupy).
-selectionStart
-    The offset into the element's text content of the
-first selected character. If there's no selection, this
-value indicates the offset to the character following
-the current text input cursor position (that is, the
-position the next character typed would occupy).
-size
-    The initial size of the control. This value is in
-pixels unless the value of the type attribute is text
-or password, in which case it is an integer number of
-characters. Starting in HTML5, this attribute applies
-only when the type attribute is set to text, search,
-tel, url, email, or password, otherwise it is ignored.
-In addition, the size must be greater than zero. If you
-do not specify a size, a default value of 20 is used.
-HTML5 simply states "the user agent should ensure that
-at least that many characters are visible", but
-different characters can have different widths in
-certain fonts. In some browsers, a certain string with
-x characters will not be entirely visible even if size
-is defined to at least x.
-spellcheck HTML5
-    Setting the value of this attribute to true
-indicates that the element needs to have its spelling
-and grammar checked. The value default indicates that
-the element is to act according to a default behavior,
-possibly based on the parent element's own spellcheck
-value. The value false indicates that the element
-should not be checked.
-src
-    If the value of the type attribute is image, this
-attribute specifies a URI for the location of an image
-to display on the graphical submit button, otherwise it
-is ignored.
-step HTML5
-    Works with the min and max attributes to limit the
-increments at which a numeric or date-time value can be
-set. It can be the string any or a positive floating
-point number. If this attribute is not set to any, the
-control accepts only values at multiples of the step
-value greater than the minimum.
-tabindex element-specific in HTML 4, global in HTML5
-    The position of the element in the tabbing
-navigation order for the current document.
-usemap HTML 4 only, Obsolete since HTML5
-    The name of a <map> element to be used as an image
-map.
-value
-    The initial value of the control. This attribute is
-optional except when the value of the type attribute is
-radio or checkbox.
-    Note that when reloading the page, Gecko and IE
-will ignore the value specified in the HTML source, if
-the value was changed before the reload.
-width HTML5
-    If the value of the type attribute is image, this
-attribute defines the width of the image displayed for
-the button.
+readonly 	HTML5 This attribute indicates that the
+		user cannot modify the value of the
+		control. The value of the attribute is
+		irrelevant. If you need read-write
+		access to the input value, do not add
+		the "readonly" attribute. It is ignored
+		if the value of the type attribute is
+		hidden, range, color, checkbox, radio,
+		file, or a button type (such as button
+		or submit).
+required 	HTML5 This attribute specifies that the
+		user must fill in a value before
+		submitting a form. It cannot be used
+		when the type attribute is hidden,
+		image, or a button type (submit, reset,
+		or button). The :optional and :required
+		CSS pseudo-classes will be applied to
+		the field as appropriate.
+selectionDirection HTML5 The direction in which
+		selection occurred. This is "forward"
+		if the selection was made from
+		left-to-right in an LTR locale or
+		right-to-left in an RTL locale, or
+		"backward" if the selection was made in
+		the opposite direction. On platforms on
+		which it's possible this value isn't
+		known, the value can be "none"; for
+		example, on macOS, the default
+		direction is "none", then as the user
+		begins to modify the selection using
+		the keyboard, this will change to
+		reflect the direction in which the
+		selection is expanding.
+selectionEnd 	The offset into the element's text
+		content of the last selected character.
+		If there's no selection, this value
+		indicates the offset to the character
+		following the current text input cursor
+		position (that is, the position the
+		next character typed would occupy).
+selectionStart 	The offset into the element's text
+		content of the first selected
+		character. If there's no selection,
+		this value indicates the offset to the
+		character following the current text
+		input cursor position (that is, the
+		position the next character typed would
+		occupy).
+size 		The initial size of the control. This
+		value is in pixels unless the value of
+		the type attribute is text or password,
+		in which case it is an integer number
+		of characters. Starting in HTML5, this
+		attribute applies only when the type
+		attribute is set to text, search, tel,
+		url, email, or password, otherwise it
+		is ignored.  In addition, the size must
+		be greater than zero. If you do not
+		specify a size, a default value of 20
+		is used.  HTML5 simply states "the user
+		agent should ensure that at least that
+		many characters are visible", but
+		different characters can have different
+		widths in certain fonts. In some
+		browsers, a certain string with x
+		characters will not be entirely visible
+		even if size is defined to at least x.
+spellcheck 	HTML5 Setting the value of this
+		attribute to true indicates that the
+		element needs to have its spelling and
+		grammar checked. The value default
+		indicates that the element is to act
+		according to a default behavior,
+		possibly based on the parent element's
+		own spellcheck value. The value false
+		indicates that the element should not
+		be checked.
+src 		If the value of the type attribute is
+		image, this attribute specifies a URI
+		for the location of an image to display
+		on the graphical submit button,
+		otherwise it is ignored.
+step 		HTML5 Works with the min and max
+		attributes to limit the increments at
+		which a numeric or date-time value can
+		be set. It can be the string any or a
+		positive floating point number. If this
+		attribute is not set to any, the
+		control accepts only values at
+		multiples of the step value greater
+		than the minimum.
+tabindex 	element-specific in HTML 4, global in
+		HTML5 The position of the element in
+		the tabbing navigation order for the
+		current document.
+usemap 		HTML 4 only, Obsolete since HTML5 The
+		name of a <map> element to be used as
+		an image map.
+value 		The initial value of the control. This
+		attribute is optional except when the
+		value of the type attribute is radio or
+		checkbox. Note that when reloading the
+		page, Gecko and IE will ignore the
+		value specified in the HTML source, if
+		the value was changed before the
+		reload.
+width 		HTML5 If the value of the type
+		attribute is image, this attribute
+		defines the width of the image
+		displayed for the button.
 
-Non-standard <input> attributes
+NON-STANDARD <INPUT> ATTRIBUTES
 
-autocapitalize
-    This is a nonstandard attribute used by Chrome and
-iOS Safari Mobile, which controls whether and how the
-text value should be automatically capitalized as it is
-entered/edited by the user. The non-deprecated values
-are available in iOS 5 and later. Possible values are:
+autocapitalize 	This is a nonstandard attribute used by
+		Chrome and iOS Safari Mobile, which
+		controls whether and how the text value
+		should be automatically capitalized as
+		it is entered/edited by the user. The
+		non-deprecated values are available in
+		iOS 5 and later. Possible values are:
+		* none: Completely disables automatic
+		  capitalisation.
+		* sentences: Automatically capitalise
+		  the first letter of sentences.
+		* words: Automatically capitalise the
+		  first letter of words.
+		* characters: Automatically capitalise
+		  all characters.
+        	* on: Deprecated since iOS 5.
+        	* off: Deprecated since iOS 5.
+autocorrect 	This is a non-standard attribute
+		supported by Safari that is used to
+		control whether autocorrection should
+		be enabled when the user is
+		entering/editing the text value of the
+		<input>. Possible attribute values are:
+        	* on: Enable autocorrection.
+        	* off: Disable autocorrection.
+incremental 	This is a nonstandard attribute
+		supported by WebKit (Safari) and Blink
+		(Chrome) that only applies when the
+		type is search. If the attribute is
+		present, regardless of what its value
+		is, the <input> fires search events as
+		the user edits the text value. The
+		event is only fired after an
+		implementation-defined timeout has
+		elapsed since the most recent
+		keystroke, and new keystrokes reset the
+		timeout. In other words, the event
+		firing is debounced. If the attribute
+		is absent, the search event is only
+		fired when the user explicitly
+		initiates a search (e.g. by pressing
+		the Enter key while within field).
+mozactionhint 	Specifies an "action hint" used to
+		determine how to label the enter key on
+		mobile devices with virtual keyboards.
+		Supported values are go, done, next,
+		search, and send. These automatically
+		get mapped to the appropriate string
+		and are case-insensitive.
+results 	This is a nonstandard attribute
+		supported by Safari that only applies
+		when the type is search. It is used to
+		control the maximum number of entries
+		that should be displayed in the
+		<input>'s native dropdown list of past
+		search queries. Its value should be a
+		nonnegative decimal integer.
+webkitdirectory This Boolean attribute indicates if the
+		selector used when the type attribute
+		is file has to allow for the selection
+		of directories only.
+x-moz-errormessage This Mozilla extension allows you to
+		specify the error message to display
+		when a field doesn't successfully
+		validate. 
 
-        none: Completely disables automatic
-capitalisation.
-        sentences: Automatically capitalise the first
-letter of sentences.
-        words: Automatically capitalise the first
-letter of words.
-        characters: Automatically capitalise all
-characters.
-        on: Deprecated since iOS 5.
-        off: Deprecated since iOS 5.
-
-    autocapitalize documentation in the Safari HTML
-Reference.
-autocorrect
-    This is a non-standard attribute supported by
-Safari that is used to control whether autocorrection
-should be enabled when the user is entering/editing the
-text value of the <input>. Possible attribute values
-are:
-
-        on: Enable autocorrection.
-        off: Disable autocorrection.
-
-    autocorrect documentation in the Safari HTML
-Reference.
-incremental
-    This is a nonstandard attribute supported by WebKit
-(Safari) and Blink (Chrome) that only applies when the
-type is search. If the attribute is present, regardless
-of what its value is, the <input> fires search events
-as the user edits the text value. The event is only
-fired after an implementation-defined timeout has
-elapsed since the most recent keystroke, and new
-keystrokes reset the timeout. In other words, the event
-firing is debounced. If the attribute is absent, the
-search event is only fired when the user explicitly
-initiates a search (e.g. by pressing the Enter key
-while within field). incremental documentation in the
-Safari HTML Reference
-mozactionhint
-    Specifies an "action hint" used to determine how to
-label the enter key on mobile devices with virtual
-keyboards. Supported values are go, done, next, search,
-and send. These automatically get mapped to the
-appropriate string and are case-insensitive.
-results
-    This is a nonstandard attribute supported by Safari
-that only applies when the type is search. It is used
-to control the maximum number of entries that should be
-displayed in the <input>'s native dropdown list of past
-search queries. Its value should be a nonnegative
-decimal integer.
-webkitdirectory 
-    This Boolean attribute indicates if the selector
-used when the type attribute is file has to allow for
-the selection of directories only.
-x-moz-errormessage
-    This Mozilla extension allows you to specify the
-error message to display when a field doesn't
-successfully validate. 
+You can style <input> elements using various
+color-related attributes in particular. One unusual one
+that is specific to text entry-related elements is the
+CSS caret-color property, which lets you set the color
+used to draw the text input caret:
+	HTML:
+	<label for="textInput">Note the red
+			       caret:</label>
+	<input id="textInput" class="custom"
+				  size="32"/>
+	CSS: 
+	input.custom {
+	  caret-color: red;
+	  font: 16px "Helvetica", "Arial", "sans-serif"
+	}
 
 CONTENT VERSUS IDL ATTRIBUTES:
 
