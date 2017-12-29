@@ -1519,61 +1519,70 @@ max 		HTML5 The maximum (numeric or
 		date-time) value for this item, which
 		must not be less than its minimum (min
 		attribute) value.
-maxlength
-    If the value of the type attribute is text, email,
-search, password, tel, or url, this attribute specifies
-the maximum number of characters (in UTF-16 code units)
-that the user can enter. For other control types, it is
-ignored. It can exceed the value of the size attribute.
-If it is not specified, the user can enter an unlimited
-number of characters. Specifying a negative number
-results in the default behavior (i.e. the user can
-enter an unlimited number of characters). The
-constraint is evaluated only when the value of the
-attribute has been changed.
-min HTML5
-    The minimum (numeric or date-time) value for this
-item, which must not be greater than its maximum (max
-attribute) value.
-minlength HTML5
-    If the value of the type attribute is text, email,
-search, password, tel, or url, this attribute specifies
-the minimum number of characters (in Unicode code
-points) that the user can enter. For other control
-types, it is ignored.
-multiple HTML5
-    This Boolean attribute indicates whether the user
-can enter more than one value. This attribute applies
-when the type attribute is set to email or file,
-otherwise it is ignored.
-name
-    The name of the control, which is submitted with
-the form data.
-pattern HTML5
-    A regular expression that the control's value is
-checked against. The pattern must match the entire
-value, not just some subset. Use the title attribute to
-describe the pattern to help the user. This attribute
-applies when the value of the type attribute is text,
-search, tel, url, email, or password, otherwise it is
-ignored. The regular expression language is the same as
-JavaScript RegExp algorithm, with the 'u' parameter
-that makes it treat the pattern as a sequence of
-unicode code points. The pattern is not surrounded by
-forward slashes.
-placeholder HTML5
-    A hint to the user of what can be entered in the
-control . The placeholder text must not contain
-carriage returns or line-feeds. 
-    Note: Do not use the placeholder attribute instead
-of a <label> element, their purposes are different. The
-<label> attribute describes the role of the form
-element (i.e. it indicates what kind of information is
-expected), and the placeholder attribute is a hint
-about the format that the content should take. There
-are cases in which the placeholder attribute is never
-displayed to the user, so the form must be
-understandable without it.
+maxlength 	If the value of the type attribute is
+		text, email, search, password, tel, or
+		url, this attribute specifies the
+		maximum number of characters (in UTF-16
+		code units) that the user can enter.
+		For other control types, it is ignored.
+		It can exceed the value of the size
+		attribute.  If it is not specified, the
+		user can enter an unlimited number of
+		characters. Specifying a negative
+		number results in the default behavior
+		(i.e. the user can enter an unlimited
+		number of characters). The constraint
+		is evaluated only when the value of the
+		attribute has been changed.
+min 		HTML5 The minimum (numeric or
+		date-time) value for this item, which
+		must not be greater than its maximum
+		(max attribute) value.
+minlength 	HTML5 If the value of the type
+		attribute is text, email, search,
+		password, tel, or url, this attribute
+		specifies the minimum number of
+		characters (in Unicode code points)
+		that the user can enter. For other
+		control types, it is ignored.
+multiple 	HTML5 This Boolean attribute indicates
+		whether the user can enter more than
+		one value. This attribute applies when
+		the type attribute is set to email or
+		file, otherwise it is ignored.
+name 		The name of the control, which is
+		submitted with the form data.
+pattern 	HTML5 A regular expression that the
+		control's value is checked against. The
+		pattern must match the entire value,
+		not just some subset. Use the title
+		attribute to describe the pattern to
+		help the user. This attribute applies
+		when the value of the type attribute is
+		text, search, tel, url, email, or
+		password, otherwise it is ignored. The
+		regular expression language is the same
+		as JavaScript RegExp algorithm, with
+		the 'u' parameter that makes it treat
+		the pattern as a sequence of unicode
+		code points. The pattern is not
+		surrounded by forward slashes.
+placeholder 	HTML5 A hint to the user of what can be
+		entered in the control . The
+		placeholder text must not contain
+		carriage returns or line-feeds.
+		Note: Do not use the placeholder
+		attribute instead of a <label> element,
+		their purposes are different. The
+		<label> attribute describes the role of
+		the form element (i.e. it indicates
+		what kind of information is expected),
+		and the placeholder attribute is a hint
+		about the format that the content
+		should take. There are cases in which
+		the placeholder attribute is never
+		displayed to the user, so the form must
+		be understandable without it.
 readonly HTML5
     This attribute indicates that the user cannot
 modify the value of the control. The value of the
