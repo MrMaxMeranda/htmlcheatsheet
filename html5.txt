@@ -12,17 +12,17 @@ Styles, scripts and data to help software (search
 engines, browsers, etc.) use and render the page.
 Metadata for styles and scripts may be defined in the
 page or link to another file that has the information.
-<link> 		Element specifies relationships between
-		the current document and an external
+<link> 		Specifies relationships between the
+		current document and an external
 		resource. Possible uses for this
 		element include defining a relational
 		framework for navigation. This element
 		is most used to link to style sheets.
-<meta> 		represents metadata that cannot be
+<meta> 		Represents metadata that cannot be
 		represented by other HTML meta-related
 		elements, like <base>, <link>,
 		<script>, <style> or <title>.
-<style> 	contains style information for a
+<style> 	Contains style information for a
 		document, or part of a document.
 
 SECTIONING ROOT:
@@ -47,10 +47,7 @@ of content.
 -<address>	Indicates that the enclosed HTML
 		provides contact information for a
 		person or people, or for an
-		organization.supplies contact
-		information for its nearest <article>
-		or <body> ancestor; in the latter case,
-		it applies to the whole document.
+		organization.
 <aside> 	Represents a portion of a document
 		whose content is only indirectly
 		related to the document's main content.
