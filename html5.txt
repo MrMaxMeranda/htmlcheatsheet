@@ -1335,200 +1335,190 @@ autocomplete 	HTML5 This attribute indicates whether
 		  information in the other fields
 		  associated with this field.
 
-If the autocomplete attribute is not specified on an
-input element then the browser uses the autocomplete
-attribute value of the <input> element's form owner.
-The form owner is either the form element that this
-<input> element is a descendant of or the form element
-whose id is specified by the form attribute of the
-input element. For more information, see the
-autocomplete attribute in <form>.
+autofocus	HTML5 This Boolean attribute lets you
+		specify that a form control should have
+		input focus when the page loads, unless
+		the user overrides it (e.g. by typing
+		in a different control). Only one form
+		element in a document can have the
+		autofocus attribute, which is a
+		Boolean.  It cannot be applied if the
+		type attribute is set to hidden (that
+		is, you cannot automatically set focus
+		to a hidden control). Note that the
+		focusing of the control may occur
+		before the firing of the
+		DOMContentLoaded event.
+capture 	When the value of the type attribute is
+		file, the presence of this Boolean
+		attribute indicates that capture of
+		media directly from the device's
+		environment using a media capture
+		mechanism is preferred.
+checked 	When the value of the type attribute is
+		radio or checkbox, the presence of this
+		Boolean attribute indicates that the
+		control is selected by default,
+		otherwise it is ignored.
+disabled 	This Boolean attribute indicates that
+		the form control is not available for
+		interaction. In particular, the click
+		event will not be dispatched on
+		disabled controls. Also, a disabled
+		control's value isn't submitted with
+		the form.
+form 		HTML5 The form element that the input
+		element is associated with (its form
+		owner). The value of the attribute must
+		be an id of a <form> element in the
+		same document. If this attribute is not
+		specified, this <input> element must be
+		a descendant of a <form> element. This
+		attribute enables you to place <input>
+		elements anywhere within a document,
+		not just as descendants of their form
+		elements. An input can only be
+		associated with one form.
+formaction 	HTML5 The URI of a program that
+		processes the information submitted by
+		the input element, if it is a submit
+		button or image. If specified, it
+		overrides the action attribute of the
+		element's form owner.
+formenctype 	HTML5 If the input element is a submit
+		button or image, this attribute
+		specifies the type of content that is
+		used to submit the form to the server.
+		Possible values are:
+		* application/x-www-form-urlencoded:
+		  The default value if the attribute is
+		  not specified.
+		* multipart/form-data: Use this value
+		  if you are using an <input> element
+		  with the type attribute set to file.
+        	* text/plain
+		If this attribute is specified, it
+		overrides the enctype attribute of the
+		element's form owner.
+formmethod 	HTML5 If the input element is a submit
+		button or image, this attribute
+		specifies the HTTP method that the
+		browser uses to submit the form.
+		Possible values are: 
+		* post: The data from the form is
+		  included in the body of the form and
+		  is sent to the server.
+		* get: The data from the form are
+		  appended to the form attribute URI,
+		  with a '?' as a separator, and the
+		  resulting URI is sent to the server.
+		  Use this method when the form has no
+		  side-effects and contains only ASCII
+		  characters.
+		If specified, this attribute overrides
+		the method attribute of the element's
+		form owner.
+formnovalidate 	HTML5 If the input element is a submit
+		button or image, this Boolean attribute
+		specifies that the form is not to be
+		validated when it is submitted. If this
+		attribute is specified, it overrides
+		the novalidate attribute of the
+		element's form owner.
+formtarget 	HTML5 If the input element is a submit
+		button or image, this attribute is a
+		name or keyword indicating where to
+		display the response that is received
+		after submitting the form. This is a
+		name of, or keyword for, a browsing
+		context (e.g. tab, window, or inline
+		frame). If this attribute is specified,
+		it overrides the target attribute of
+		the elements's form owner. The
+		following keywords have special
+		meanings: 
+		* _self: Load the response into the
+		  same browsing context as the current
+		  one. This value is the default if the
+		  attribute is not specified.
+		* _blank: Load the response into a new
+		  unnamed browsing context.
+		* _parent: Load the response into the
+		  parent browsing context of the
+		  current one. If there is no parent,
+		  this option behaves the same way as
+		  _self.
+		* _top: Load the response into the
+		  top-level browsing context (i.e. the
+		  browsing context that is an ancestor
+		  of the current one, and has no
+		  parent). If there is no parent, this
+		  option behaves the same way as _self.
+height 		HTML5 If the value of the type
+		attribute is image, this attribute
+		defines the height of the image
+		displayed for the button.
+inputmode 	HTML5 Obsolete since HTML5.2 A hint to
+		the browser for which keyboard to
+		display. This attribute applies when
+		the value of the type attribute is
+		text, password, email, or url.
+		Possible values are: 
+		* verbatim: Alphanumeric, non-prose
+		  content such as usernames and
+		  passwords.
+		* latin: Latin-script input in the
+		  user's preferred language with typing
+		  aids such as text prediction enabled.
+		  For human-to-computer communication
+		  such as search boxes.
+		* latin-name: As latin, but for human
+		  names.
+		* latin-prose: As latin, but with more
+		  aggressive typing aids. For
+		  human-to-human communication such as
+		  instant messaging or email.
+		* full-width-latin: As latin-prose, but
+		  for the user's secondary languages.
+		* kana: Kana or romaji input, typically
+		  hiragana input, using full-width
+		  characters, with support for
+		  converting to kanji. Intended for
+		  Japanese text input.
+		* katakana: Katakana input, using
+		  full-width characters, with support
+		  for converting to kanji.  Intended
+		  for Japanese text input.
+		* numeric: Numeric input, including
+		  keys for the digits 0 to 9, the
+		  user's preferred thousands separator
+		  character, and the character for
+		  indicating negative numbers. Intended
+		  for numeric codes (e.g. credit card
+		  numbers). For actual numbers, prefer
+		  using <input type="number">
+		* tel: Telephone input, including
+		  asterisk and pound key. Use <input
+		  type="tel"> if possible instead.
+		* email: Email input. Use <input
+		  type="email"> if possible instead.
+		* url: URL input. Use
+		  <input type="url"> if possible
+		  instead.
 
-The autocomplete attribute also controls whether
-Firefox will, unlike other browsers, persist the
-dynamic disabled state and (if applicable) dynamic
-checkedness of an <input> across page loads. The
-persistence feature is enabled by default. Setting the
-value of the autocomplete attribute to off disables
-this feature. This works even when the autocomplete
-attribute would normally not apply to the <input> by
-virtue of its type. See bug 654072.
-
-For most modern browsers (including Firefox 38+,
-Google Chrome 34+, IE 11+), setting the autocomplete
-attribute will not prevent a browser's password manager
-from asking the user if they want to store login
-(username and password) fields and, if they agree, from
-autofilling the login the next time the user visits the
-page. See the autocomplete attribute and login fields.
-autofocus HTML5
-    This Boolean attribute lets you specify that a form
-control should have input focus when the page loads,
-unless the user overrides it (e.g. by typing in a
-different control). Only one form element in a document
-can have the autofocus attribute, which is a Boolean.
-It cannot be applied if the type attribute is set to
-hidden (that is, you cannot automatically set focus to
-a hidden control). Note that the focusing of the
-control may occur before the firing of the
-DOMContentLoaded event.
-capture
-
-    When the value of the type attribute is file, the
-presence of this Boolean attribute indicates that
-capture of media directly from the device's environment
-using a media capture mechanism is preferred.
-checked
-
-    When the value of the type attribute is radio or
-checkbox, the presence of this Boolean attribute
-indicates that the control is selected by default,
-otherwise it is ignored.
-
-    Unlike other browsers, Firefox will by default
-persist the dynamic checked state of an <input> across
-page loads. Use the autocomplete attribute to control
-this feature.
-disabled
-
-    This Boolean attribute indicates that the form
-control is not available for interaction. In
-particular, the click event will not be dispatched on
-disabled controls. Also, a disabled control's value
-isn't submitted with the form.
-
-    Unlike other browsers, Firefox will by default
-persist the dynamic disabled state of an <input> across
-page loads. Use the autocomplete attribute to control
-this feature.
-form HTML5
-    The form element that the input element is
-associated with (its form owner). The value of the
-attribute must be an id of a <form> element in the same
-document. If this attribute is not specified, this
-<input> element must be a descendant of a <form>
-element. This attribute enables you to place <input>
-elements anywhere within a document, not just as
-descendants of their form elements. An input can only
-be associated with one form.
-formaction HTML5
-    The URI of a program that processes the information
-submitted by the input element, if it is a submit
-button or image. If specified, it overrides the action
-attribute of the element's form owner.
-formenctype HTML5
-    If the input element is a submit button or image,
-this attribute specifies the type of content that is
-used to submit the form to the server. Possible values
-are:
-
-        application/x-www-form-urlencoded: The default
-value if the attribute is not specified.
-        multipart/form-data: Use this value if you are
-using an <input> element with the type attribute set to
-file.
-        text/plain
-
-    If this attribute is specified, it overrides the
-enctype attribute of the element's form owner.
-formmethod HTML5
-    If the input element is a submit button or image,
-this attribute specifies the HTTP method that the
-browser uses to submit the form. Possible values are:
-
-        post: The data from the form is included in the
-body of the form and is sent to the server.
-        get: The data from the form are appended to the
-form attribute URI, with a '?' as a separator, and the
-resulting URI is sent to the server. Use this method
-when the form has no side-effects and contains only
-ASCII characters.
-
-    If specified, this attribute overrides the method
-attribute of the element's form owner.
-formnovalidate HTML5
-    If the input element is a submit button or image,
-this Boolean attribute specifies that the form is not
-to be validated when it is submitted. If this attribute
-is specified, it overrides the novalidate attribute of
-the element's form owner.
-formtarget HTML5
-    If the input element is a submit button or image,
-this attribute is a name or keyword indicating where to
-display the response that is received after submitting
-the form. This is a name of, or keyword for, a browsing
-context (e.g. tab, window, or inline frame). If this
-attribute is specified, it overrides the target
-attribute of the elements's form owner. The following
-keywords have special meanings:
-
-        _self: Load the response into the same browsing
-context as the current one. This value is the default
-if the attribute is not specified.
-        _blank: Load the response into a new unnamed
-browsing context.
-        _parent: Load the response into the parent
-browsing context of the current one. If there is no
-parent, this option behaves the same way as _self.
-        _top: Load the response into the top-level
-browsing context (i.e. the browsing context that is an
-ancestor of the current one, and has no parent). If
-there is no parent, this option behaves the same way as
-_self.
-
-height HTML5
-    If the value of the type attribute is image, this
-attribute defines the height of the image displayed for
-the button.
-inputmode HTML5Obsolete since HTML5.2
-    A hint to the browser for which keyboard to
-display. This attribute applies when the value of the
-type attribute is text, password, email, or url.
-Possible values are:
-
-        verbatim: Alphanumeric, non-prose content such
-as usernames and passwords.
-        latin: Latin-script input in the user's
-preferred language with typing aids such as text
-prediction enabled. For human-to-computer communication
-such as search boxes.
-        latin-name: As latin, but for human names.
-        latin-prose: As latin, but with more aggressive
-typing aids. For human-to-human communication such as
-instant messaging or email.
-        full-width-latin: As latin-prose, but for the
-user's secondary languages.
-        kana: Kana or romaji input, typically hiragana
-input, using full-width characters, with support for
-converting to kanji. Intended for Japanese text input.
-        katakana: Katakana input, using full-width
-characters, with support for converting to kanji.
-Intended for Japanese text input.
-        numeric: Numeric input, including keys for the
-digits 0 to 9, the user's preferred thousands separator
-character, and the character for indicating negative
-numbers. Intended for numeric codes (e.g. credit card
-numbers). For actual numbers, prefer using <input
-type="number">
-        tel: Telephone input, including asterisk and
-pound key. Use <input type="tel"> if possible instead.
-        email: Email input. Use <input type="email"> if
-possible instead.
-        url: URL input. Use <input type="url"> if
-possible instead.
-
-list HTML5
-    Identifies a list of pre-defined options to suggest
-to the user. The value must be the id of a <datalist>
-element in the same document. The browser displays only
-options that are valid values for this input element.
-This attribute is ignored when the type attribute's
-value is hidden, checkbox, radio, file, or a button
-type.
-max HTML5
-    The maximum (numeric or date-time) value for this
-item, which must not be less than its minimum (min
-attribute) value.
+list 		HTML5 Identifies a list of pre-defined
+		options to suggest to the user. The
+		value must be the id of a <datalist>
+		element in the same document. The
+		browser displays only options that are
+		valid values for this input element.
+		This attribute is ignored when the type
+		attribute's value is hidden, checkbox,
+		radio, file, or a button type.
+max 		HTML5 The maximum (numeric or
+		date-time) value for this item, which
+		must not be less than its minimum (min
+		attribute) value.
 maxlength
     If the value of the type attribute is text, email,
 search, password, tel, or url, this attribute specifies
