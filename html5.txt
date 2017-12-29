@@ -1,12 +1,4 @@
-HTML elements reference
-
-This page lists all the HTML elements. They are grouped
-by function to help you find what you have in mind
-easily.
-
-For more information about the basics of HTML elements
-and attributes, see the section on elements in the
-Introduction to HTML article.
+HTML ELEMENTS REFERENCE
 
 MAIN ROOT:
 <html>		The HTML <html> element represents the
@@ -16,11 +8,10 @@ MAIN ROOT:
 		must be descendants of this element.
 
 DOCUMENT METADATA:
-Information about the page: Styles, scripts and data to
-help software (search engines, browsers, etc.) use and
-render the page. Metadata for styles and scripts may be
-defined in the page or link to another file that has
-the information.
+Styles, scripts and data to help software (search
+engines, browsers, etc.) use and render the page.
+Metadata for styles and scripts may be defined in the
+page or link to another file that has the information.
 <link> 		Element specifies relationships between
 		the current document and an external
 		resource. Possible uses for this
