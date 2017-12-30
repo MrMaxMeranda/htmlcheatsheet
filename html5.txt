@@ -182,11 +182,10 @@ arbitrary piece of text.
 <bdo>		Overrides the current directionality of
 		text, so that the text within is
 		rendered in a different direction.
-<br>		The HTML <br> element produces a line
-		break in text (carriage-return). It is
-		useful for writing a poem or an
-		address, where the division of lines is
-		significant.
+<br>		Produces a line break in text
+		(carriage-return). It is useful for
+		writing a poem or an address, where the
+		division of lines is significant.
 <cite>		Is used to describe a reference to a
 		cited creative work, and must include
 		either the title or the URL of that
