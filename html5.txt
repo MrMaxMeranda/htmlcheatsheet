@@ -66,15 +66,15 @@ of content.
 		author name, and so on.
 <hgroup>	Represents a multi-level heading for a
 		section of a document. It groups a set
-		of <h1>–<h6> elements.
-<h1>, <h2>,	The HTML <h1>–<h6> elements represent
+		of <h1> to <h6> elements.
+<h1>, <h2>,	The HTML <h1> to <h6> elements represent
 <h3>, <h4>,	six levels of section headings. <h1> is
 <h5>, <h6> 	the highest section level and <h6> is
 		the lowest.
 <nav>		Represents a section of a page whose
 		purpose is to provide navigation links,
 		either within the current document or
-		to other documents.  Common examples of
+		to other documents. Common examples of
 		navigation sections are menus, tables
 		of contents, and indexes.
 <section>	Represents a standalone section — which
@@ -84,16 +84,15 @@ of content.
 
 TEXT CONTENT:
 
-Use HTML text content elements to organize blocks or
+Use HTML text content elements to organise blocks or
 sections of content placed between the opening <body>
 and closing </body> tags. Important for accessibility
 and SEO, these elements identify the purpose or
 structure of that content.
 <blockquote> 	Indicates that the enclosed text is an
 		extended quotation. Usually, this is
-		rendered visually by indentation (see
-		Notes for how to change it). A URL for
-		the source of the quotation may be
+		rendered visually by indentation. A URL
+		for the source of the quotation may be
 		given using the cite attribute, while a
 		text representation of the source can
 		be given using the <cite> element.
@@ -101,7 +100,7 @@ structure of that content.
 		element encloses a list of groups of
 		terms (specified using the <dt>
 		element) and descriptions. (provided by
-		<dd> elements).  Common uses for this
+		<dd> elements). Common uses for this
 		element are to implement a glossary or
 		to display metadata (a list of
 		key-value pairs).
@@ -507,18 +506,19 @@ create interactive user interface objects.
 -<summary>	Is used as a summary, caption, or
 		legend for the content of a <details>
 		element.
-<menu>		Represents a group of commands that a
-		user can perform or activate. This
-		includes both list menus, which might
-		appear across the top of a screen, as
-		well as context menus, such as those
-		that might appear underneath a button
-		after it has been clicked.
--<menuitem>	Represents a command that a user is
-		able to invoke through a popup menu.
-		This includes context menus, as well as
-		menus that might be attached to a menu
-		button.
+<menu>		Obsolete. Represents a group of
+		commands that a user can perform or
+		activate. This includes both list
+		menus, which might appear across the
+		top of a screen, as well as context
+		menus, such as those that might appear
+		underneath a button after it has been
+		clicked.
+-<menuitem>	Obsolete. Represents a command that a
+		user is able to invoke through a popup
+		menu.  This includes context menus, as
+		well as menus that might be attached to
+		a menu button.
 
 WEB COMPONENTS:
 
