@@ -367,8 +367,8 @@ always easy to interact with.
 		or a resource to be handled by a
 		plugin.
 <param> 	Defines parameters for an <object>
-		element.  <picture> The HTML <picture>
-		element serves as a container for zero
+		element.
+<picture> 	serves as a container for zero
 		or more <source> elements and one <img>
 		element to provide versions of an image
 		for different display device scenarios.
