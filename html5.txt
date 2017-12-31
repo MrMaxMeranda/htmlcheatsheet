@@ -316,10 +316,6 @@ IMAGE AND MULTIMEDIA:
 
 HTML supports various multimedia resources such as
 images, audio, and video.
-<area>		Defines a hot-spot region on an image,
-		and optionally associates it with a
-		hypertext link. This element is used
-		only within a <map> element.
 <audio>		Is used to embed sound content in
 		documents. It may contain one or more
 		audio sources, represented using the
@@ -331,6 +327,10 @@ images, audio, and video.
 <img>		Embeds an image into the document.
 <map>		is used with <area> elements to define
 		an image map (a clickable link area).
+-<area>		Defines a hot-spot region on an image,
+		and optionally associates it with a
+		hypertext link. This element is used
+		only within a <map> element.
 <track> 	Is used as a child of the media
 		elements <audio> and <video>. It lets
 		you specify timed text tracks (or
