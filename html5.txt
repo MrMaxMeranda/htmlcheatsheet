@@ -347,8 +347,8 @@ include a variety of other content, even if it's not
 always easy to interact with.
 <applet> 	An obsolete Applet Element that embeds
 		a Java applet into the document; this
-		element has been deprecated in favor of
-		<object>.
+		element has been deprecated in favour
+		of <object>.
 <embed> 	Embeds external content at the
 		specified point in the document. This
 		content is provided by an external
