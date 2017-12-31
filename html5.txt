@@ -260,11 +260,11 @@ arbitrary piece of text.
 		indicating document edits; for that,
 		use the <del> and <ins> elements, as
 		appropriate.
-<samp>		The HTML <samp> element is an element
-		intended to identify sample output from
-		a computer program. It is usually
-		displayed in the browser's default
-		monotype font (such as Lucida Console).
+<samp>		An element intended to identify sample
+		output from a computer program. It is
+		usually displayed in the browser's
+		default monotype font (such as Lucida
+		Console).
 <small> 	Makes the text font size one size
 		smaller (for example, from large to
 		medium, or from small to x-small) down
