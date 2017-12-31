@@ -324,21 +324,21 @@ images, audio, and video.
 		suitable one. It can also be the
 		destination for streamed media, using a
 		MediaStream.
-<img>		Embeds an image into the document.
-<map>		is used with <area> elements to define
-		an image map (a clickable link area).
--<area>		Defines a hot-spot region on an image,
-		and optionally associates it with a
-		hypertext link. This element is used
-		only within a <map> element.
-<track> 	Is used as a child of the media
+<video> 	Embed video content in a document.
+-<track> 	Is used as a child of the media
 		elements <audio> and <video>. It lets
 		you specify timed text tracks (or
 		time-based data), for example to
 		automatically handle subtitles. The
 		tracks are formatted in WebVTT format
 		(.vtt files) — Web Video Text Tracks.
-<video> 	Embed video content in a document.
+<img>		Embeds an image into the document.
+<map>		Is used with <area> elements to define
+		an image map (a clickable link area).
+-<area>		Defines a hot-spot region on an image,
+		and optionally associates it with a
+		hypertext link. This element is used
+		only within a <map> element.
 
 EMBEDDED CONTENT:
 
