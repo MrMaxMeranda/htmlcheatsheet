@@ -452,11 +452,10 @@ in the HTML forms guide.
 <form>		Represents a document section that
 		contains interactive controls to submit
 		information to a web server.
-<button> 	The HTML <button> element represents a
-		clickable button, which can be used in
-		forms, or anywhere in a document that
-		needs simple, standard button
-		functionality.
+<button> 	Represents a clickable button, which
+		can be used in forms, or anywhere in a
+		document that needs simple, standard
+		button functionality.
 <fieldset> 	The HTML <fieldset> element is used to
 		group several controls as well as
 		labels (<label>) within a web form.
