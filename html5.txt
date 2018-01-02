@@ -640,7 +640,7 @@ informational purposes only.
 		generate automatic NAME labels for its
 		anchors.
 <nobr>		Prevents the text it contains from
-		automatically wrapping accross multiple
+		automatically wrapping across multiple
 		lines, potentially resulting in the
 		user having to scroll horizontally to
 		see the entire width of the text.
@@ -693,13 +693,7 @@ informational purposes only.
 		that it should be rendered wide enough
 		to allow 80 characters per line.
 
-
-Elements in HTML have attributes; these are additional
-values that configure the elements or adjust their
-behavior in various ways to meet the criteria the users
-want.
-
-ATTRIBUTE LIST:
+ELEMENT ATTRIBUTE LIST:
 
 ATTRIBUTE 	ELEMENTS 	DESCRIPTION
 NAME
