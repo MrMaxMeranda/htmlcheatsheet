@@ -549,7 +549,7 @@ HTML elements.
 		present them together.
 <template>	Is a mechanism for holding client-side
 		content that is not to be rendered when
-		a page is loaded but may subsequently
+		a page is loaded, but may subsequently
 		be instantiated during runtime using
 		JavaScript.
 
@@ -569,7 +569,7 @@ informational purposes only.
 		this element has been deprecated in
 		favor of <object>.
 <basefont> 	Sets a default font face, size, and
-		color for the other elements which are
+		colour for the other elements which are
 		descended from its parent element.
 <bgsound> 	Internet Explorer only. Sets up a sound
 		file to play in the background while
@@ -581,7 +581,7 @@ informational purposes only.
 <blink> 	A non-standard element which causes the
 		enclosed text to flash slowly.
 <center> 	A block-level element that displays its
-		block-level or inline contents centered
+		block-level or inline contents centred
 		horizontally within its containing
 		element.
 <command>	Represents a command which the user can
@@ -598,14 +598,14 @@ informational purposes only.
 <element> 	Was part of the Web Components
 		specification; it was intended to be
 		used to define new custom DOM elements.
-<font>		Defines the font size, color and face
+<font>		Defines the font size, colour and face
 		for its content.
-<frame> 	Is an HTML element which defines a
-		particular area in which another HTML
-		document can be displayed. A frame
-		should be used within a <frameset>.
 <frameset>	Is an HTML element which is used to
 		contain <frame> elements.
+-<frame> 	Defines a particular area in which
+		another HTML document can be displayed.
+		A frame should be used within a
+		<frameset>.
 <image>		Remnant of an ancient version of HTML
 		lost in the mists of time; use the
 		standard <img> element instead.
