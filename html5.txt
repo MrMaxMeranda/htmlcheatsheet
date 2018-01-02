@@ -600,8 +600,7 @@ informational purposes only.
 		used to define new custom DOM elements.
 <font>		Defines the font size, colour and face
 		for its content.
-<frameset>	Is an HTML element which is used to
-		contain <frame> elements.
+<frameset>	Used to contain <frame> elements.
 -<frame> 	Defines a particular area in which
 		another HTML document can be displayed.
 		A frame should be used within a
@@ -609,7 +608,7 @@ informational purposes only.
 <image>		Remnant of an ancient version of HTML
 		lost in the mists of time; use the
 		standard <img> element instead.
-<isindex	Puts a text field in a page for
+<isindex>	Puts a text field in a page for
 		querying the document.
 <keygen> 	To facilitate generation of key
 		material, and submission of the public
