@@ -768,17 +768,6 @@ cite 		<blockquote>,   Contains a URI which
 class 		Global          Often used with CSS to
 		attribute 	style elements with
 				common properties.
-code 		<applet> 	Specifies the URL of
-				the applet's class file
-				to be loaded and
-				executed.
-codebase 	<applet> 	This attribute gives
-				the absolute or
-				relative URL of the
-				directory where
-				applets' .class files
-				referenced by the code
-				attribute are stored.
 color		<basefont>,     This attribute sets the
 		<font>, <hr> 	text color using either
                                 a named color or a
