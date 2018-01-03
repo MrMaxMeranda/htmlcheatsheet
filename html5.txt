@@ -740,8 +740,8 @@ autofocus 	<button>,       The element should be
 autoplay 	<audio>,        The audio or video
 		<video> 	should play as soon as
 		(true/false)	possible.
-bgcolor 	<body>, <col>,  Background color of the
-		<colgroup>,     element.
+bgcolor 	<body>, <col>,  Background colour of
+		<colgroup>,     the element.
 		<marquee>,      Note: This is a legacy
 		<table>,        attribute. Please use
 		<tbody>,        the CSS
