@@ -756,9 +756,6 @@ border 		<img>,          The border width.
 buffered 	<audio>,        Contains the time range
 		<video> 	of already buffered
 				media.
-challenge 	<keygen> 	A challenge string that
-		Obsolete.       is submitted along with
-				the public key.
 charset 	<meta>,         Declares the character
 		<script> 	encoding of the page or
 		(UTF-8)		script.
