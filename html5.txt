@@ -819,12 +819,9 @@ dir 		Global          Defines the text
 				values are ltr
 				(Left-To-Right) or rtl
 				(Right-To-Left)
-dirname 	<input>,        Indicates whether the
-		<textarea> 	user can interact with
-			       	the element.
-disabled 	<button>,
-		<command>,
-		<fieldset>,
+disabled 	<button>,       Indicates whether the
+		<command>,      user can interact with
+		<fieldset>,     the element.
 		<input>,
 		<keygen>,
 		<optgroup>,
