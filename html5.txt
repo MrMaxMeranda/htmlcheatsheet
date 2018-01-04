@@ -791,7 +791,7 @@ controls 	<audio>,        Indicates whether the
 				the user.
 coords 		<area> 		A set of values
 				specifying the
-				coordinates of the
+				co-ordinates of the
 				hot-spot region.
 crossorigin 	<audio>, <img>, How the element handles
 		<link>,         cross-origin requests.
@@ -821,7 +821,8 @@ dir 		Global          Defines the text
 				(Right-To-Left)
 dirname 	<input>,        Indicates whether the
 		<textarea> 	user can interact with
-disabled 	<button>,       the element.
+			       	the element.
+disabled 	<button>,
 		<command>,
 		<fieldset>,
 		<input>,
