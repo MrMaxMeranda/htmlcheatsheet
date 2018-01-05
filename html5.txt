@@ -835,13 +835,15 @@ download 	<a>, <area> 	Indicates that the
 draggable 	Global          Defines whether the
 		attribute 	element can be dragged.
 dropzone 	Global          Indicates that the
-		attribute 	element accept the
+		attribute 	element accepts the
 				dropping of content on
 				it.
-enctype 	<form> 		Defines the content
-				type of the form date
-				when the method is
-				POST.
+enctype 	<form> 		When the value of the
+				METHOD attribute is
+				POST, enctype is the
+				MIME type of content
+				that is used to submit
+				the form to the server.
 for 		<label>,        Describes elements
 		<output> 	which belongs to this
 				one.
