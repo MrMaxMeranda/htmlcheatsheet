@@ -852,14 +852,13 @@ form 		<button>,       The form element that
 		<input>,        associated with (its    
 		<keygen>,       form owner). The value  
 		<label>,        of the attribute must   
-		<meter>,        be an id of a <form>    
+		<meter>,        be an ID of a <form>    
 		<object>,       element in the same     
 		<output>,       document. If this       
 		<progress>,     attribute is not        
-		<select>,       specified, this <input> 
-		<textarea>      element must be a       
-				descendant of a <form>  
-				element.                
+		<select>,       specified, this element
+		<textarea>      must be a descendant of
+				a <form> element.
 formaction 	<input>,        Indicates the action of
 		<button> 	the element, overriding
 				the action defined in
