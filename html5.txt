@@ -847,17 +847,19 @@ enctype 	<form> 		When the value of the
 for 		<label>,        Describes elements
 		<output> 	which belongs to this
 				one.
-form 		<button>,       Indicates the form that
-		<fieldset>,     is the owner of the
-		<input>,        element.
-		<keygen>,
-		<label>,
-		<meter>,
-		<object>,
-		<output>,
-		<progress>,
-		<select>,
-		<textarea>
+form 		<button>,       The form element that   
+		<fieldset>,     the element is          
+		<input>,        associated with (its    
+		<keygen>,       form owner). The value  
+		<label>,        of the attribute must   
+		<meter>,        be an id of a <form>    
+		<object>,       element in the same     
+		<output>,       document. If this       
+		<progress>,     attribute is not        
+		<select>,       specified, this <input> 
+		<textarea>      element must be a       
+				descendant of a <form>  
+				element.                
 formaction 	<input>,        Indicates the action of
 		<button> 	the element, overriding
 				the action defined in
