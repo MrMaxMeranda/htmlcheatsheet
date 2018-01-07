@@ -880,8 +880,8 @@ height 		<canvas>,       Specifies the height of
 				instead.
 hidden 		Global          Prevents rendering of
 		attribute 	given element, while
-				keeping child elements,
-				e.g.  script elements,
+		(true/false)	keeping child elements,
+				e.g. script elements,
 				active.
 high 		<meter> 	Indicates the lower
 				bound of the upper
