@@ -890,7 +890,6 @@ href 		<a>, <area>,    The URL of a linked
 		<base>, <link>	resource.
 hreflang 	<a>, <area>,    Specifies the language
 		<link> 		of the linked resource.
-http-equiv 	<meta>
 icon 		<command> 	Specifies a picture
 				which represents the
 				command.
