@@ -895,14 +895,16 @@ id 		Global          Often used with CSS to
 				element. The value of
 				this attribute must be
 				unique.
-integrity 	<link>,         Security Feature that
+integrity 	<link>,         Security feature that
 		<script>  	allows browsers to
                                 verify what they fetch.
 ismap 		<img> 		Indicates that the
-				image is part of a
+		(true/false)	image is part of a
 				server-side image map.
-itemprop 	Global
-		attribute
+itemprop 	Global		Used to add properties
+		attribute	to an item. Consists
+				of a name and value
+				pair.
 keytype 	<keygen> 	Specifies the type of
 				key generated.
 kind 		<track> 	Specifies the kind of
