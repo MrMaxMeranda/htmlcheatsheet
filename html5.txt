@@ -847,15 +847,15 @@ enctype 	<form> 		When the value of the
 for 		<label>,        Describes elements
 		<output> 	which belongs to this
 				one.
-form 		<button>,       The form element that   
-		<fieldset>,     the element is          
-		<input>,        associated with (its    
-		<keygen>,       form owner). The value  
-		<label>,        of the attribute must   
-		<meter>,        be an ID of a <form>    
-		<object>,       element in the same     
-		<output>,       document. If this       
-		<progress>,     attribute is not        
+form 		<button>,       The form element that
+		<fieldset>,     the element is
+		<input>,        associated with (its
+		<keygen>,       form owner). The value
+		<label>,        of the attribute must
+		<meter>,        be an ID of a <form>
+		<object>,       element in the same
+		<output>,       document. If this
+		<progress>,     attribute is not
 		<select>,       specified, this element
 		<textarea>      must be a descendant of
 				a <form> element.
@@ -924,9 +924,10 @@ low 		<meter> 	Indicates the upper
 				range.
 max 		<input>,        Indicates the maximum
 		<meter>,        value allowed.
-		<progress> 	Defines the maximum
-maxlength 	<input>,        number of characters
-		<textarea> 	allowed in the element.
+		<progress>
+maxlength 	<input>,        Defines the maximum
+		<textarea> 	number of characters
+                                allowed in the element.
 minlength 	<input>,        Defines the minimum
 		<textarea> 	number of characters
 				allowed in the element.
@@ -1350,7 +1351,7 @@ formmethod 	HTML5 If the input element is a submit
 		button or image, this attribute
 		specifies the HTTP method that the
 		browser uses to submit the form.
-		Possible values are: 
+		Possible values are:
 		* post: The data from the form is
 		  included in the body of the form and
 		  is sent to the server.
@@ -1382,7 +1383,7 @@ formtarget 	HTML5 If the input element is a submit
 		it overrides the target attribute of
 		the elements's form owner. The
 		following keywords have special
-		meanings: 
+		meanings:
 		* _self: Load the response into the
 		  same browsing context as the current
 		  one. This value is the default if the
@@ -1409,7 +1410,7 @@ inputmode 	HTML5 Obsolete since HTML5.2 A hint to
 		display. This attribute applies when
 		the value of the type attribute is
 		text, password, email, or url.
-		Possible values are: 
+		Possible values are:
 		* verbatim: Alphanumeric, non-prose
 		  content such as usernames and
 		  passwords.
@@ -1706,7 +1707,7 @@ webkitdirectory This Boolean attribute indicates if the
 x-moz-errormessage This Mozilla extension allows you to
 		specify the error message to display
 		when a field doesn't successfully
-		validate. 
+		validate.
 
 You can style <input> elements using various
 color-related attributes in particular. One unusual one
@@ -1718,7 +1719,7 @@ used to draw the text input caret:
 			       caret:</label>
 	<input id="textInput" class="custom"
 				  size="32"/>
-	CSS: 
+	CSS:
 	input.custom {
 	  caret-color: red;
 	  font: 16px "Helvetica", "Arial", "sans-serif"
