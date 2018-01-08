@@ -971,7 +971,15 @@ pattern 	<input> 	Defines a regular
 				expression which the
 				element's value will be
 				validated against.
-ping 		<a>, <area>
+ping 		<a>, <area>	Contains a space-
+				separated list of URLs
+				to which, when the
+				hyperlink is followed,
+				POST requests with the
+				body PING will be sent
+				by the browser (in the
+				background). Typically
+				used for tracking.
 placeholder 	<input>,        Provides a hint to the
 		<textarea> 	user of what can be
 				entered in the field.
