@@ -936,10 +936,8 @@ media 		<a>, <area>,    Specifies a hint of the
 		<source>,       linked resource was
 		<style>         designed.
 method 		<form> 		Defines which HTTP
-				method to use when
+		(get/post)	method to use when
 				submitting the form.
-				Can be GET (default) or
-				POST.
 min 		<input>,        Indicates the minimum
 		<meter> 	value allowed.
 multiple 	<input>,        Indicates whether
@@ -954,7 +952,6 @@ name 		<button>,       Name of the element.
 		<fieldset>,     server to identify the
 		<iframe>,       fields in form submits.
 		<input>,
-		<keygen>,
 		<object>,
 		<output>,
 		<select>,
