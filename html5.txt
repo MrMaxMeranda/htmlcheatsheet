@@ -991,7 +991,6 @@ preload 	<audio>,        Indicates whether the
 		<video> 	whole resource, parts
 				of it or nothing should
 				be preloaded.
-radiogroup 	<command>
 readonly 	<input>,        Indicates whether the
 		<textarea> 	element can be edited.
 rel 		<a>, <area>,    Specifies the
