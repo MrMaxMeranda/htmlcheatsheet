@@ -905,8 +905,6 @@ itemprop 	Global		Used to add properties
 		attribute	to an item. Consists
 				of a name and value
 				pair.
-keytype 	<keygen> 	Specifies the type of
-				key generated.
 kind 		<track> 	Specifies the kind of
 				text track.
 label 		<track> 	Specifies a
