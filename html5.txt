@@ -922,9 +922,6 @@ loop 		<audio>,        Indicates whether the
 low 		<meter> 	Indicates the upper
 				bound of the lower
 				range.
-manifest 	<html> 		Specifies the URL of
-				the document's cache
-				manifest.
 max 		<input>,        Indicates the maximum
 		<meter>,        value allowed.
 		<progress> 	Defines the maximum
