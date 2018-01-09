@@ -1077,8 +1077,8 @@ tabindex 	Global          Overrides the browser's
 		attribute 	default tab order and
 				follows the one
 				specified instead.
-target 		<a>, <area>,
-		<base>, <form>
+target 		<a>, <area>,	Different definition
+		<base>, <form>	for each element.
 title 		Global          Text to be displayed in
 		attribute 	a tooltip when hovering
 				over the element.
