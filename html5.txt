@@ -1057,7 +1057,12 @@ srcdoc 		<iframe>	The content of the page
 				the sandbox attribute.
 srclang 	<track>		Language of the track
 				text data.
-srcset 		<img>
+srcset 		<img>		A list of one or more
+				strings separated by
+				commas indicating a set
+				of possible image
+				sources for the user
+				agent to use.
 start 		<ol> 		Defines the first
 				number if other than 1.
 step 		<input>
