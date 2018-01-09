@@ -1073,7 +1073,6 @@ step 		<input>		Works with the MIN and
 style 		Global          Defines CSS styles
 		attribute 	which will override
 				styles previously set.
-summary 	<table>
 tabindex 	Global          Overrides the browser's
 		attribute 	default tab order and
 				follows the one
