@@ -1029,13 +1029,14 @@ size 		<input>,        Defines the width of
 				attribute is text or
 				password then it's the
 				number of characters.
-sizes 		<link>, <img>,	Different for each
-		<source>	element.
+sizes 		<link>, <img>,	Different definition
+		<source>	for each element.
 slot 		Global          Assigns a slot in a
 		attribute 	shadow DOM shadow tree
 				to an element.
-span 		<col>,
-		<colgroup>
+span 		<col>,		Indicates the number of
+		<colgroup>	consecutive columns the
+				element spans.
 spellcheck 	Global          Indicates whether spell
 		attribute 	checking is allowed for
 				the element.
