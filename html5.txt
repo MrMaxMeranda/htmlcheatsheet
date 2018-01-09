@@ -1022,7 +1022,6 @@ scope 		<th>		Defines the cells that
 selected 	<option> 	Defines a value which
 				will be selected on
 				page load.
-shape 		<a>, <area>
 size 		<input>,        Defines the width of
 		<select> 	the element (in
 				pixels). If the
@@ -1030,8 +1029,8 @@ size 		<input>,        Defines the width of
 				attribute is text or
 				password then it's the
 				number of characters.
-sizes 		<link>, <img>,
-		<source>
+sizes 		<link>, <img>,	Different for each
+		<source>	element.
 slot 		Global          Assigns a slot in a
 		attribute 	shadow DOM shadow tree
 				to an element.
