@@ -1048,8 +1048,15 @@ src 		<audio>,        The URL of the
 		<source>,
 		<track>,
 		<video>
-srcdoc 		<iframe>
-srclang 	<track>
+srcdoc 		<iframe>	The content of the page
+				that the embedded
+				context is to contain.
+				This attribute is
+				expected to generally
+				be used together with
+				the sandbox attribute.
+srclang 	<track>		Language of the track
+				text data.
 srcset 		<img>
 start 		<ol> 		Defines the first
 				number if other than 1.
