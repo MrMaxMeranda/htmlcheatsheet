@@ -1065,7 +1065,11 @@ srcset 		<img>		A list of one or more
 				agent to use.
 start 		<ol> 		Defines the first
 				number if other than 1.
-step 		<input>
+step 		<input>		Works with the min and
+				max attributes to limit
+				the increments at which
+				a numeric or date-time
+				value can be set.
 style 		Global          Defines CSS styles
 		attribute 	which will override
 				styles previously set.
