@@ -1012,7 +1012,6 @@ rowspan 	<td>, <th> 	Defines the number of
 				should span over.
 sandbox 	<iframe>
 scope 		<th>
-seamless 	<iframe>
 selected 	<option> 	Defines a value which
 				will be selected on
 				page load.
