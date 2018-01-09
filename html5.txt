@@ -1010,8 +1010,15 @@ rows 		<textarea> 	Defines the number of
 rowspan 	<td>, <th> 	Defines the number of
 				rows a table cell
 				should span over.
-sandbox 	<iframe>
-scope 		<th>
+sandbox 	<iframe>	For more information,
+				see section below on
+				SANDBOX for <IFRAME>.
+scope 		<th>		Defines the cells that
+				the header element
+				relates to. It may have
+				the following values:
+				ROW, COL, ROWGROUP,
+				COLGROUP, or AUTO.
 selected 	<option> 	Defines a value which
 				will be selected on
 				page load.
