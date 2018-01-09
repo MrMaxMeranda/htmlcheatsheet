@@ -1039,7 +1039,7 @@ span 		<col>,		Indicates the number of
 				element spans.
 spellcheck 	Global          Indicates whether spell
 		attribute 	checking is allowed for
-				the element.
+		(true/false)	the element.
 src 		<audio>,        The URL of the
 		<embed>,        embeddable content.
 		<iframe>,
