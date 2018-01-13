@@ -1121,14 +1121,12 @@ The available types are as follows:
 button: 	A push button with no default behavior.
 checkbox: 	A check box allowing single values to
 		be selected/deselected.
-color: 		HTML5 A control for specifying a (more
-		info).
-date: 		HTML5 A control for entering a date
-		(year, month, and day, with no time).
-datetime-local: HTML5 A control for entering a date and
-		time, with no time zone.
-email: 		HTML5 A field for editing an e-mail
-		address.
+color: 		A control for specifying a (more info).
+date: 		A control for entering a date (year,
+		month, and day, with no time).
+datetime-local: A control for entering a date and time,
+		with no time zone.
+email: 		A field for editing an e-mail address.
 file: 		A control that lets the user select a
 		file. Use the accept attribute to
 		define the types of files that the
@@ -1154,28 +1152,28 @@ password: 	A single-line text field whose value is
 		over HTTPS.
 radio: 		A radio button, allowing a single value
 		to be selected out of multiple choices.
-range: 		HTML5 A control for entering a number
-		whose exact value is not important.
+range: 		For entering a number whose exact value
+		is not important.
 reset: 		A button that resets the contents of
 		the form to default values.
-search: 	HTML5 A single-line text field for
-		entering search strings.  Line-breaks
-		are automatically removed from the
-		input value.
+search: 	A single-line text field for entering
+		search strings. Line-breaks are
+		automatically removed from the input
+		value.
 submit: 	A button that submits the form.
-tel: 		HTML5 A control for entering a
-		telephone number.
+tel: 		A control for entering a telephone
+		number.
 text: 		A single-line text field. Line-breaks
 		are automatically removed from the
 		input value.
-time: 		HTML5 A control for entering a time
-		value with no time zone.
-url: 		HTML5 A field for entering a URL.
-week: 		HTML5 A control for entering a date
+time: 		A control for entering a time value
+		with no time zone.
+url: 		A field for entering a URL.
+week: 		A control for entering a date
 		consisting of a week-year number and a
 		week number with no time zone.
 
-Some input types are now obsolete:
+OBSOLETE TYPES:
 datetime: 	HTML5 A control for entering a date and
 		time (hour, minute, second, and
 		fraction of a second) based on UTC time
@@ -1184,7 +1182,7 @@ datetime: 	HTML5 A control for entering a date and
 
 <input> ATTRIBUTES:
 
-Global <input> attributes
+Global <input> attributes:
 
 This section lists the attributes available to all form
 <input> types. Non-global attributes — and global
