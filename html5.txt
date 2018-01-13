@@ -1111,13 +1111,10 @@ width 		<canvas>,       For the elements listed
 wrap 		<textarea> 	Indicates whether the
 				text should be wrapped.
 
-FORM <INPUT> TYPES
+FORM <INPUT> TYPES:
 
-How an <input> works varies considerably depending on
-the value of its type attribute, hence the different
-types are covered in their own separate reference
-pages. If this attributes is not specified, the default
-type adopted is text.
+If this attributes is not specified, the default type
+adopted is text.
 
 The available types are as follows:
 
@@ -1148,17 +1145,13 @@ month: 		HTML5 A control for entering a month
 		and year, with no time zone.
 number: 	HTML5 A control for entering a number.
 password: 	A single-line text field whose value is
-		obscured.  Use the maxlength and
+		obscured. Use the maxlength and
 		minlength attributes to specify the
 		maximum length of the value that can be
-		entered.  Note: Any forms involving
+		entered. Note: Any forms involving
 		sensitive information like passwords
-		(e.g.  login forms) should be served
-		over HTTPS; Firefox now implements
-		multiple mechanisms to warn against
-		insecure login forms — see Insecure
-		passwords.  Other browsers are also
-		implementing similar mechanisms.
+		(e.g. login forms) should be served
+		over HTTPS.
 radio: 		A radio button, allowing a single value
 		to be selected out of multiple choices.
 range: 		HTML5 A control for entering a number
