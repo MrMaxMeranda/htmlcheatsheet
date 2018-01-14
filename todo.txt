@@ -1,6 +1,1 @@
 To Do List:
-
-Try and simplify FORM <input> TYPES. There is a lot of text in there
-that simply needs to be summarised.
-
-I have removed non-standard <input> attributes.
