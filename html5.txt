@@ -1365,94 +1365,27 @@ formmethod 	If the input element is a submit button
 formnovalidate 	If the input element is a submit button
 		or image, this Boolean attribute
 		specifies that the form is not to be
-		validated when it is submitted. If this
-		attribute is specified, it overrides
-		the novalidate attribute of the
-		element's form owner.
-formtarget 	HTML5 If the input element is a submit
-		button or image, this attribute is a
-		name or keyword indicating where to
-		display the response that is received
-		after submitting the form. This is a
-		name of, or keyword for, a browsing
-		context (e.g. tab, window, or inline
-		frame). If this attribute is specified,
-		it overrides the target attribute of
-		the elements's form owner. The
+		validated when it is submitted.
+formtarget 	If the input element is a submit button
+		or image, this attribute is a name or
+		keyword indicating where to display the
+		response that is received after
+		submitting the form. This is a name of,
+		or keyword for, a browsing context. The
 		following keywords have special
 		meanings:
-		* _self: Load the response into the
-		  same browsing context as the current
-		  one. This value is the default if the
-		  attribute is not specified.
-		* _blank: Load the response into a new
-		  unnamed browsing context.
-		* _parent: Load the response into the
-		  parent browsing context of the
-		  current one. If there is no parent,
-		  this option behaves the same way as
-		  _self.
-		* _top: Load the response into the
-		  top-level browsing context (i.e. the
-		  browsing context that is an ancestor
-		  of the current one, and has no
-		  parent). If there is no parent, this
-		  option behaves the same way as _self.
-height 		HTML5 If the value of the type
-		attribute is image, this attribute
-		defines the height of the image
-		displayed for the button.
-inputmode 	HTML5 Obsolete since HTML5.2 A hint to
-		the browser for which keyboard to
-		display. This attribute applies when
-		the value of the type attribute is
-		text, password, email, or url.
-		Possible values are:
-		* verbatim: Alphanumeric, non-prose
-		  content such as usernames and
-		  passwords.
-		* latin: Latin-script input in the
-		  user's preferred language with typing
-		  aids such as text prediction enabled.
-		  For human-to-computer communication
-		  such as search boxes.
-		* latin-name: As latin, but for human
-		  names.
-		* latin-prose: As latin, but with more
-		  aggressive typing aids. For
-		  human-to-human communication such as
-		  instant messaging or email.
-		* full-width-latin: As latin-prose, but
-		  for the user's secondary languages.
-		* kana: Kana or romaji input, typically
-		  hiragana input, using full-width
-		  characters, with support for
-		  converting to kanji. Intended for
-		  Japanese text input.
-		* katakana: Katakana input, using
-		  full-width characters, with support
-		  for converting to kanji.  Intended
-		  for Japanese text input.
-		* numeric: Numeric input, including
-		  keys for the digits 0 to 9, the
-		  user's preferred thousands separator
-		  character, and the character for
-		  indicating negative numbers. Intended
-		  for numeric codes (e.g. credit card
-		  numbers). For actual numbers, prefer
-		  using <input type="number">
-		* tel: Telephone input, including
-		  asterisk and pound key. Use <input
-		  type="tel"> if possible instead.
-		* email: Email input. Use <input
-		  type="email"> if possible instead.
-		* url: URL input. Use
-		  <input type="url"> if possible
-		  instead.
-
-list 		HTML5 Identifies a list of pre-defined
+		* _self
+		* _blank
+		* _parent
+		* _top
+height 		If the value of the type attribute is
+		image, this attribute defines the
+		height.
+inputmode 	Obsolete. A hint to the browser for
+		which keyboard to display.
+list 		Identifies a list of pre-defined
 		options to suggest to the user. The
-		value must be the id of a <datalist>
+		value must be the ID of a <datalist>
 		element in the same document. The
 		browser displays only options that are
 		valid values for this input element.
