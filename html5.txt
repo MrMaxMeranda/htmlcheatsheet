@@ -1185,10 +1185,7 @@ datetime 	HTML5 A control for entering a date and
 Note: This list only includes the global HTML
       attributes.
 
-type 		The type of control to render. See Form
-		<input> types for the individual types,
-		with links to more information about
-		each.
+type 		The type of control to render.
 accept  	If the value of the type attribute is
 		file, then this attribute will indicate
 		the types of files that the server
@@ -1199,109 +1196,111 @@ accept  	If the value of the type attribute is
 		  STOP character (U+002E). (e.g. .jpg,
 		  .png, .doc).
 		* A valid MIME type with no extensions.
-		* audio/* representing sound files. HTML5
-       		* video/* representing video files. HTML5
-        	* image/* representing image files. HTML5
+		* audio/* representing sound files.
+       		* video/* representing video files.
+        	* image/* representing image files.
 
-accesskey 	HTML 4 only, Obsolete since HTML5 A
-		single-character that the user can
-		press to switch input focus to the
-		control. This attribute is global in
-		HTML5.
-autocomplete 	HTML5 This attribute indicates whether
-		the value of the control can be
+accesskey 	HTML 4 only. A single-character that
+		the user can press to switch input
+		focus to the control.
+autocomplete 	This attribute indicates whether the
+		value of the control can be
 		automatically completed by the browser.
 		Possible values are:
-
 		* off: The user must explicitly enter a
-		  value into this field for every use,
-		  or the document provides its own
-		  auto-completion method. The browser
-		  does not automatically complete the
-		  entry.
+		       value into this field for every
+		       use, or the document provides
+		       its own auto-completion method.
 		* on: The browser is allowed to
-		  automatically complete the value
-		  based on values that the user has
-		  entered during previous uses, however
-		  on does not provide any further
-		  information about what kind of data
-		  the user might be expected to enter.
-		* name: Full name.  honorific-prefix:
-		  Prefix or title (e.g. "Mr.", "Ms.",
-		  "Dr.", "Mlle").
+		      automatically complete the value
+		      based on values that the user has
+		      entered during previous uses,
+		      however on does not provide any
+		      further information about what
+		      kind of data the user might be
+		      expected to enter.
+		* name: Full name.
+		* honorific-prefix: Prefix or title
+		  (e.g. "Mr.", "Ms.", "Dr.", "Mlle").
 		* given-name: First name.
-		  additional-name: Middle name.
+		* additional-name: Middle name.
 		* family-name: Last name.
 		* honorific-suffix: Suffix (e.g. "Jr.",
 		  "B.Sc.", "MBASW", "II").  nickname
-		  email username
+		* email
+		* username
 		* new-password: A new password (e.g.
-		  when creating an account or changing
-		  a password).  current-password
+			when creating an account or
+			changing a password).
+		* current-password
 		* organization-title: Job title (e.g.
-		  "Software Engineer", "Senior Vice
-		  President", "Deputy Managing
-		  Director").  organization
-		  street-address address-line1,
-		  address-line2, address-line3,
-		  address-level4, address-level3,
-		  address-level2, address-level1
-		  country country-name postal-code
+			"Software Engineer", "Senior
+			Vice President", "Deputy
+			Managing Director").
+		* organization
+		* street-address
+		* address-line1, address-line2,
+		  address-line3, address-level4,
+		  address-level3, address-level2,
+		  address-level1
+		* country
+		* country-name
+		* postal-code
 		* cc-name: Full name as given on the
-		  payment instrument.  cc-given-name
-		  cc-additional-name cc-family-name
+		  	   payment instrument.
+		* cc-given-name
+		* cc-additional-name
+		* cc-family-name
 		* cc-number: Code identifying the
-		  payment instrument (e.g. the credit
-		  card number).
+			     payment instrument (e.g.
+			     the credit card number).
 		* cc-exp: Expiration date of the
-		  payment instrument.  cc-exp-month
-		  cc-exp-year
+		  payment instrument.
+		* cc-exp-month
+		* cc-exp-year
 		* cc-csc: Security code for the payment
-		  instrument.
+		  	  instrument.
 		* cc-type: Type of payment instrument
-		  (e.g.  Visa).  transaction-currency
-		  transaction-amount
+		  	   (e.g.  Visa).
+		* transaction-currency
+		* transaction-amount
 		* language: Preferred language; a valid
-		  BCP 47 language tag.
+		  	    BCP 47 language tag.
 		* bday: birthday
 		* bday-day
         	* bday-month
         	* bday-year
 		* sex: Gender identity (e.g. Female,
-		  Fa'afafine), free-form text, no
-		  newlines.
+		       Fa'afafine), free-form text, no
+		       newlines.
 		* tel: full telephone number, including
-		  country code
+		       country code.
 		  additional tel variants:
-		  tel-country-code, tel-national,
-		  tel-area-code, tel-local,
-		  tel-local-prefix, tel-local-suffix,
-		  tel-extension
+			tel-country-code, tel-national,
+			tel-area-code, tel-local,
+			tel-local-prefix,
+			tel-local-suffix, tel-extension
 		* url: Home page or other Web page
-		  corresponding to the company, person,
-		  address, or contact information in
-		  the other fields associated with this
-		  field.
+		       corresponding to the company,
+		       person, address, or contact
+		       information in the other fields
+		       associated with this field.
 		* photo: Photograph, icon, or other
-		  image corresponding to the company,
-		  person, address, or contact
-		  information in the other fields
-		  associated with this field.
+			 image corresponding to the
+			 company, person, address, or
+			 contact information in the
+			 other fields associated with
+			 this field.
 
-autofocus	HTML5 This Boolean attribute lets you
-		specify that a form control should have
-		input focus when the page loads, unless
-		the user overrides it (e.g. by typing
-		in a different control). Only one form
+autofocus	This Boolean attribute lets you specify
+		that a form control should have input
+		focus when the page loads, unless the
+		user overrides it (e.g. by typing in a
+		different control). Only one form
 		element in a document can have the
-		autofocus attribute, which is a
-		Boolean.  It cannot be applied if the
-		type attribute is set to hidden (that
-		is, you cannot automatically set focus
-		to a hidden control). Note that the
-		focusing of the control may occur
-		before the firing of the
-		DOMContentLoaded event.
+		autofocus attribute. It cannot be
+		applied if the type attribute is set to
+		hidden.
 capture 	When the value of the type attribute is
 		file, the presence of this Boolean
 		attribute indicates that capture of
@@ -1320,28 +1319,23 @@ disabled 	This Boolean attribute indicates that
 		disabled controls. Also, a disabled
 		control's value isn't submitted with
 		the form.
-form 		HTML5 The form element that the input
-		element is associated with (its form
-		owner). The value of the attribute must
-		be an id of a <form> element in the
-		same document. If this attribute is not
+form 		The form element that the input element
+		is associated with (its form owner).
+		The value of the attribute must be an
+		id of a <form> element in the same
+		document. If this attribute is not
 		specified, this <input> element must be
-		a descendant of a <form> element. This
-		attribute enables you to place <input>
-		elements anywhere within a document,
-		not just as descendants of their form
-		elements. An input can only be
-		associated with one form.
-formaction 	HTML5 The URI of a program that
-		processes the information submitted by
-		the input element, if it is a submit
-		button or image. If specified, it
-		overrides the action attribute of the
-		element's form owner.
-formenctype 	HTML5 If the input element is a submit
-		button or image, this attribute
-		specifies the type of content that is
-		used to submit the form to the server.
+		a descendant of a <form> element.
+formaction 	The URI of a program that processes the
+		information submitted by the input
+		element, if it is a submit button or
+		image. If specified, it overrides the
+		action attribute of the element's form
+		owner.
+formenctype 	If the input element is a submit button
+		or image, this attribute specifies the
+		type of content that is used to submit
+		the form to the server.
 		Possible values are:
 		* application/x-www-form-urlencoded:
 		  The default value if the attribute is
@@ -1353,10 +1347,10 @@ formenctype 	HTML5 If the input element is a submit
 		If this attribute is specified, it
 		overrides the enctype attribute of the
 		element's form owner.
-formmethod 	HTML5 If the input element is a submit
-		button or image, this attribute
-		specifies the HTTP method that the
-		browser uses to submit the form.
+formmethod 	If the input element is a submit button
+		or image, this attribute specifies the
+		HTTP method that the browser uses to
+		submit the form.
 		Possible values are:
 		* post: The data from the form is
 		  included in the body of the form and
@@ -1365,14 +1359,11 @@ formmethod 	HTML5 If the input element is a submit
 		  appended to the form attribute URI,
 		  with a '?' as a separator, and the
 		  resulting URI is sent to the server.
-		  Use this method when the form has no
-		  side-effects and contains only ASCII
-		  characters.
 		If specified, this attribute overrides
 		the method attribute of the element's
 		form owner.
-formnovalidate 	HTML5 If the input element is a submit
-		button or image, this Boolean attribute
+formnovalidate 	If the input element is a submit button
+		or image, this Boolean attribute
 		specifies that the form is not to be
 		validated when it is submitted. If this
 		attribute is specified, it overrides
