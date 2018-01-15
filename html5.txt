@@ -1199,9 +1199,9 @@ accept  	If the value of the type attribute is
        		* video/* representing video files.
         	* image/* representing image files.
 
-accesskey 	HTML 4 only. A single-character that
-		the user can press to switch input
-		focus to the control.
+accesskey 	Obsolete. A single-character that the
+		user can press to switch input focus to
+		the control.
 autocomplete 	This attribute indicates whether the
 		value of the control can be
 		automatically completed by the browser.
