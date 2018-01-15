@@ -1167,11 +1167,11 @@ text 		A single-line text field. Line-breaks
 		are automatically removed from the
 		input value.
 time 		A control for entering a time value
-		with no time zone.
+		with no timezone.
 url 		A field for entering a URL.
 week 		A control for entering a date
 		consisting of a week-year number and a
-		week number with no time zone.
+		week number with no timezone.
 
 OBSOLETE TYPES:
 datetime 	HTML5 A control for entering a date and
