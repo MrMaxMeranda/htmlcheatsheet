@@ -1193,8 +1193,7 @@ accept  	If the value of the type attribute is
 		The value must be a comma-separated
 		list of unique content type specifiers:
 		* A file extension starting with the
-		  STOP character (U+002E). (e.g. .jpg,
-		  .png, .doc).
+		  STOP character (.jpg, .png, .doc).
 		* A valid MIME type with no extensions.
 		* audio/* representing sound files.
        		* video/* representing video files.
