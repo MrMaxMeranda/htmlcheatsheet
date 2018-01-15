@@ -1114,7 +1114,8 @@ wrap 		<textarea> 	Indicates whether the
 FORM <INPUT> TYPES:
 
 If this attributes is not specified, the default type
-adopted is text.
+adopted is text. This is a separate list because of
+it's size.
 
 The available types are as follows:
 
@@ -1190,8 +1191,8 @@ attributes that behave differently when specified on
 different <input> types — are listed on those types'
 individual pages.
 
-Note: This includes the global HTML attributes. Also
-note, non-standard attributes are not listed.
+Note: This includes the global HTML attributes.
+Also note: Non-standard attributes are not listed.
 
 type 		The type of control to render. See Form
 		<input> types for the individual types,
