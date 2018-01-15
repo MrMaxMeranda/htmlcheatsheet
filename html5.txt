@@ -1180,18 +1180,10 @@ datetime 	HTML5 A control for entering a date and
 		zone.  This feature has been removed
 		from WHATWG HTML.
 
-<input> ATTRIBUTES:
+<INPUT> ATTRIBUTES:
 
-Global <input> attributes:
-
-This section lists the attributes available to all form
-<input> types. Non-global attributes — and global
-attributes that behave differently when specified on
-different <input> types — are listed on those types'
-individual pages.
-
-Note: This includes the global HTML attributes.
-Also note: Non-standard attributes are not listed.
+Note: This list only includes the global HTML
+      attributes.
 
 type 		The type of control to render. See Form
 		<input> types for the individual types,
