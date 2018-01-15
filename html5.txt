@@ -1433,36 +1433,21 @@ placeholder 	A hint to the user of what can be
 readonly 	This attribute indicates that the user
 		cannot modify the value of the control.
 		The value of the attribute is
-		irrelevant. If you need read-write
-		access to the input value, do not add
-		the "readonly" attribute. It is ignored
-		if the value of the type attribute is
-		hidden, range, color, checkbox, radio,
-		file, or a button type (such as button
-		or submit).
-required 	HTML5 This attribute specifies that the
+		irrelevant. It is ignored if the value
+		of the type attribute is hidden, range,
+		color, checkbox, etc..
+required 	This attribute specifies that the
 		user must fill in a value before
-		submitting a form. It cannot be used
-		when the type attribute is hidden,
-		image, or a button type (submit, reset,
-		or button). The :optional and :required
-		CSS pseudo-classes will be applied to
-		the field as appropriate.
-selectionDirection HTML5 The direction in which
-		selection occurred. This is "forward"
-		if the selection was made from
-		left-to-right in an LTR locale or
-		right-to-left in an RTL locale, or
-		"backward" if the selection was made in
-		the opposite direction. On platforms on
-		which it's possible this value isn't
-		known, the value can be "none"; for
-		example, on macOS, the default
-		direction is "none", then as the user
-		begins to modify the selection using
-		the keyboard, this will change to
-		reflect the direction in which the
-		selection is expanding.
+		submitting a form. The :optional and
+		:required CSS pseudo-classes will be
+		applied to the field as appropriate.
+selectionDirection The direction in which selection
+		occurred. This is "forward" if the
+		selection was made from left-to-right
+		in an LTR locale or right-to-left in an
+		RTL locale, or "backward" if the
+		selection was made in the opposite
+		direction.
 selectionEnd 	The offset into the element's text
 		content of the last selected character.
 		If there's no selection, this value
@@ -1472,31 +1457,12 @@ selectionEnd 	The offset into the element's text
 		next character typed would occupy).
 selectionStart 	The offset into the element's text
 		content of the first selected
-		character. If there's no selection,
-		this value indicates the offset to the
-		character following the current text
-		input cursor position (that is, the
-		position the next character typed would
-		occupy).
+		character.
 size 		The initial size of the control. This
 		value is in pixels unless the value of
 		the type attribute is text or password,
 		in which case it is an integer number
-		of characters. Starting in HTML5, this
-		attribute applies only when the type
-		attribute is set to text, search, tel,
-		url, email, or password, otherwise it
-		is ignored.  In addition, the size must
-		be greater than zero. If you do not
-		specify a size, a default value of 20
-		is used.  HTML5 simply states "the user
-		agent should ensure that at least that
-		many characters are visible", but
-		different characters can have different
-		widths in certain fonts. In some
-		browsers, a certain string with x
-		characters will not be entirely visible
-		even if size is defined to at least x.
+		of characters.
 spellcheck 	HTML5 Setting the value of this
 		attribute to true indicates that the
 		element needs to have its spelling and
