@@ -1127,23 +1127,24 @@ datetime-local  A control for entering a date and time,
 		with no timezone.
 email 		A field for editing an e-mail address.
 file 		A control that lets the user select a
-		file. Use the accept attribute to
+		file. Use the 'accept' attribute to
 		define the types of files that the
 		control can select.
 hidden 		A control that is not displayed but
 		whose value is submitted to the server.
 image 		A graphical submit button. You must use
-		the src attribute to define the source
-		of the image and the alt attribute to
-		define alternative text.  You can use
-		the height and width attributes to
-		define the size of the image in pixels.
-month 		HTML5 A control for entering a month
-		and year, with no time zone.
-number 		HTML5 A control for entering a number.
+		the 'src' attribute to define the
+		source of the image and the 'alt'
+		attribute to define alternative text.
+		You can use the 'height' and 'width'
+		attributes to define the size of the
+		image in pixels.
+month 		A control for entering a month and
+		year, with no timezone.
+number 		A control for entering a number.
 password 	A single-line text field whose value is
-		obscured. Use the maxlength and
-		minlength attributes to specify the
+		obscured. Use the 'maxlength' and
+		'minlength' attributes to specify the
 		maximum length of the value that can be
 		entered. Note: Any forms involving
 		sensitive information like passwords
