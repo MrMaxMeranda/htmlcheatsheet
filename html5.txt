@@ -1113,9 +1113,9 @@ wrap 		<textarea> 	Indicates whether the
 
 FORM <INPUT> TYPES:
 
-If this attributes is not specified, the default type
+If this attribute is not specified, the default type
 adopted is text. This is a separate list because of
-it's size.
+its size.
 
 The available types are as follows:
 
