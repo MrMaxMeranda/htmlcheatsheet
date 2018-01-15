@@ -1198,7 +1198,6 @@ accept  	If the value of the type attribute is
 		* audio/* representing sound files.
        		* video/* representing video files.
         	* image/* representing image files.
-
 accesskey 	Obsolete. A single-character that the
 		user can press to switch input focus to
 		the control.
@@ -1213,11 +1212,7 @@ autocomplete 	This attribute indicates whether the
 		* on: The browser is allowed to
 		      automatically complete the value
 		      based on values that the user has
-		      entered during previous uses,
-		      however on does not provide any
-		      further information about what
-		      kind of data the user might be
-		      expected to enter.
+		      entered during previous uses.
 		* name: Full name.
 		* honorific-prefix: Prefix or title
 		  (e.g. "Mr.", "Ms.", "Dr.", "Mlle").
