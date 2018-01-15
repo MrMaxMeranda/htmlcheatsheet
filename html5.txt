@@ -1120,11 +1120,11 @@ its size.
 button 		A push button with no default behavior.
 checkbox 	A check box allowing single values to
 		be selected/deselected.
-color 		A control for specifying a (more info).
+color 		A control for specifying a colour.
 date 		A control for entering a date (year,
 		month, and day, with no time).
 datetime-local  A control for entering a date and time,
-		with no time zone.
+		with no timezone.
 email 		A field for editing an e-mail address.
 file 		A control that lets the user select a
 		file. Use the accept attribute to
