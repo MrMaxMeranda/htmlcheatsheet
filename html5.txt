@@ -1215,17 +1215,16 @@ autocomplete 	This attribute indicates whether the
 		      entered during previous uses.
 		* name: Full name.
 		* honorific-prefix: Prefix or title
-		  (e.g. "Mr.", "Ms.", "Dr.", "Mlle").
+			("Mr.", "Ms.", "Dr.", "Mlle").
 		* given-name: First name.
 		* additional-name: Middle name.
-		* family-name: Last name.
-		* honorific-suffix: Suffix (e.g. "Jr.",
-		  "B.Sc.", "MBASW", "II").  nickname
+		* family-name: Surname.
+		* honorific-suffix: ("Jr.", "B.Sc.",
+		  		     "MBASW", "II").
+		* nickname
 		* email
 		* username
-		* new-password: A new password (e.g.
-			when creating an account or
-			changing a password).
+		* new-password
 		* current-password
 		* organization-title: Job title (e.g.
 			"Software Engineer", "Senior
