@@ -1226,48 +1226,37 @@ autocomplete 	This attribute indicates whether the
 		* username
 		* new-password
 		* current-password
-		* organization-title: Job title (e.g.
-			"Software Engineer", "Senior
-			Vice President", "Deputy
-			Managing Director").
+		* organization-title: Job title
+		  	 ("Owner", "CEO", etc.).
 		* organization
 		* street-address
 		* address-line1, address-line2,
-		  address-line3, address-level4,
-		  address-level3, address-level2,
-		  address-level1
+		  address-line3, address-level1,
+		  address-level2, address-level3,
+		  address-level4
 		* country
 		* country-name
 		* postal-code
-		* cc-name: Full name as given on the
-		  	   payment instrument.
+		* cc-name: As given on the card.
 		* cc-given-name
 		* cc-additional-name
 		* cc-family-name
-		* cc-number: Code identifying the
-			     payment instrument (e.g.
-			     the credit card number).
-		* cc-exp: Expiration date of the
-		  payment instrument.
+		* cc-number: The credit card number.
+		* cc-exp: Expiry date.
 		* cc-exp-month
 		* cc-exp-year
-		* cc-csc: Security code for the payment
-		  	  instrument.
-		* cc-type: Type of payment instrument
-		  	   (e.g.  Visa).
+		* cc-csc: Security code.
+		* cc-type: (Visa, MasterCard)
 		* transaction-currency
 		* transaction-amount
 		* language: Preferred language; a valid
 		  	    BCP 47 language tag.
-		* bday: birthday
+		* bday: Birthday.
 		* bday-day
         	* bday-month
         	* bday-year
-		* sex: Gender identity (e.g. Female,
-		       Fa'afafine), free-form text, no
-		       newlines.
-		* tel: full telephone number, including
-		       country code.
+		* sex: Free-form text; no newlines.
+		* tel: Phone number, and country code.
 		  additional tel variants:
 			tel-country-code, tel-national,
 			tel-area-code, tel-local,
