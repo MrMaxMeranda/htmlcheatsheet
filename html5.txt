@@ -1317,13 +1317,12 @@ formenctype 	If the input element is a submit button
 		or image, this attribute specifies the
 		type of content that is used to submit
 		the form to the server.
-		Possible values are:
 		* application/x-www-form-urlencoded:
 		  The default value if the attribute is
 		  not specified.
 		* multipart/form-data: Use this value
 		  if you are using an <input> element
-		  with the type attribute set to file.
+		  with the TYPE attribute set to FILE.
         	* text/plain
 		If this attribute is specified, it
 		overrides the enctype attribute of the
