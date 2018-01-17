@@ -1303,7 +1303,7 @@ disabled 	This Boolean attribute indicates that
 form 		The form element that the input element
 		is associated with (its form owner).
 		The value of the attribute must be an
-		id of a <form> element in the same
+		ID of a <form> element in the same
 		document. If this attribute is not
 		specified, this <input> element must be
 		a descendant of a <form> element.
