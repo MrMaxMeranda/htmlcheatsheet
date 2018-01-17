@@ -1324,21 +1324,20 @@ formenctype 	If the input element is a submit button
 		  if you are using an <input> element
 		  with the TYPE attribute set to FILE.
         	* text/plain
-		If this attribute is specified, it
-		overrides the enctype attribute of the
-		element's form owner.
+		This attribute overrides the enctype
+		attribute of the element's form owner.
 formmethod 	If the input element is a submit button
 		or image, this attribute specifies the
 		HTTP method that the browser uses to
 		submit the form.
-		Possible values are:
 		* post: The data from the form is
-		  included in the body of the form and
-		  is sent to the server.
+			included in the body of the
+			form and is sent to the server.
 		* get: The data from the form are
-		  appended to the form attribute URI,
-		  with a '?' as a separator, and the
-		  resulting URI is sent to the server.
+		       appended to the form attribute
+		       URI, with a '?' as a separator,
+		       and the resulting URI is sent to
+		       the server.
 		If specified, this attribute overrides
 		the method attribute of the element's
 		form owner.
@@ -1358,8 +1357,8 @@ formtarget 	If the input element is a submit button
 		* _blank
 		* _parent
 		* _top
-height 		If the value of the type attribute is
-		image, this attribute defines the
+height 		If the value of the TYPE attribute is
+		IMAGE, this attribute defines the
 		height.
 inputmode 	Obsolete. A hint to the browser for
 		which keyboard to display.
@@ -1369,18 +1368,18 @@ list 		Identifies a list of pre-defined
 		element in the same document. The
 		browser displays only options that are
 		valid values for this input element.
-		This attribute is ignored when the type
+		This attribute is ignored when the TYPE
 		attribute's value is hidden, checkbox,
 		radio, file, or a button type.
 max 		The maximum (numeric or date-time)
 		value for this item, which must not be
 		less than its MIN attribute value.
 maxlength 	If the value of the TYPE attribute is
-		text, email, search, password, tel, or
-		url, this attribute specifies the
-		maximum number of characters (in UTF-16
-		code units) that the user can enter.
-		For other control types, it is ignored.
+		TEXT, EMAIL, SEARCH, PASSWORD, TEL, or
+		URL, this attribute specifies the
+		maximum number of characters that the
+		user can enter. For other control
+		types, it is ignored.
 min 		The minimum (numeric or date-time)
 		value for this item, which must not be
 		greater than its MAX attribute value.
