@@ -1405,10 +1405,7 @@ pattern 	A regular expression that the control's
 placeholder 	A hint to the user of what can be
 		entered in the control. The placeholder
 		text must not contain carriage returns
-		or line-feeds. Note: Do not use the
-		placeholder attribute instead of a
-		<label> element; its purpose is
-		different.
+		or line-feeds.
 readonly 	This attribute indicates that the user
 		cannot modify the value of the control.
 		The value of the attribute is
