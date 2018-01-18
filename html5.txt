@@ -1392,8 +1392,8 @@ minlength 	If the value of the type attribute is
 multiple 	This Boolean attribute indicates
 		whether the user can enter more than
 		one value. This attribute applies when
-		the type attribute is set to email or
-		file, otherwise it is ignored.
+		the TYPE attribute is set to EMAIL or
+		FILE, otherwise it is ignored.
 name 		The name of the control, which is
 		submitted with the form data.
 pattern 	A regular expression that the control's
