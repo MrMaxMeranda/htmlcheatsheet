@@ -1384,8 +1384,8 @@ min 		The minimum (numeric or date-time)
 		value for this item, which must not be
 		greater than its MAX attribute value.
 minlength 	If the value of the type attribute is
-		text, email, search, password, tel, or
-		url, this attribute specifies the
+		TEXT, EMAIL, SEARCH, PASSWORD, TEL, or
+		URL, this attribute specifies the
 		minimum number of characters that the
 		user can enter. For other control
 		types, it is ignored.
