@@ -1436,15 +1436,15 @@ selectionStart 	The offset into the element's text
 		character.
 size 		The initial size of the control. This
 		value is in pixels unless the value of
-		the type attribute is text or password,
+		the TYPE attribute is TEXT or PASSWORD,
 		in which case it is an integer number
 		of characters.
 spellcheck 	Setting the value of this attribute to
-		true indicates that the element needs
+		TRUE indicates that the element needs
 		to have its spelling and grammar
 		checked.
-src 		If the value of the type attribute is
-		image, this attribute specifies a URI
+src 		If the value of the TYPE attribute is
+		IMAGE, this attribute specifies a URI
 		for the location of an image to display
 		on the graphical submit button,
 		otherwise it is ignored.
