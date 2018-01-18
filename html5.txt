@@ -1406,17 +1406,17 @@ placeholder 	A hint to the user of what can be
 		entered in the control. The placeholder
 		text must not contain carriage returns
 		or line-feeds.
-readonly 	This attribute indicates that the user
-		cannot modify the value of the control.
-		The value of the attribute is
-		irrelevant. It is ignored if the value
-		of the type attribute is hidden, range,
-		color, checkbox, etc..
-required 	This attribute specifies that the
-		user must fill in a value before
-		submitting a form. The :optional and
-		:required CSS pseudo-classes will be
-		applied to the field as appropriate.
+readonly 	Indicates that the user cannot modify
+		the value of the control.  The value of
+		the attribute is irrelevant. It is
+		ignored if the value of the TYPE
+		attribute is HIDDEN, RANGE, COLOR,
+		CHECKBOX, etc..
+required 	Specifies that the user must fill in a
+		value before submitting a form. The
+		:OPTIONAL and :REQUIRED CSS pseudo-
+		classes will be applied to the field as
+		appropriate.
 selectionDirection The direction in which selection
 		occurred. This is "forward" if the
 		selection was made from left-to-right
