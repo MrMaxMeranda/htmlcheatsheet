@@ -1451,7 +1451,7 @@ src 		If the value of the TYPE attribute is
 step 		Works with the MIN and MAX attributes
 		to limit the increments at which a
 		numeric or date-time value can be set.
-		It can be the string any or a positive
+		It can be the string ANY or a positive
 		floating point number.
 tabindex 	The position of the element in the
 		tabbing navigation order for the
@@ -1460,10 +1460,10 @@ usemap 		Obsolete. The name of a <map> element
 		to be used as an image map.
 value 		The initial value of the control. This
 		attribute is optional except when the
-		value of the type attribute is radio or
-		checkbox.
-width 		If the value of the type attribute is
-		image, this attribute defines the width
+		value of the TYPE attribute is RADIO or
+		CHECKBOX.
+width 		If the value of the TYPE attribute is
+		IMAGE, this attribute defines the width
 		of the image displayed for the button.
 
 You can style <input> elements using various
