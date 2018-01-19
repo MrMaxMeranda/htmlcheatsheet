@@ -1448,7 +1448,7 @@ src 		If the value of the TYPE attribute is
 		for the location of an image to display
 		on the graphical submit button,
 		otherwise it is ignored.
-step 		Works with the min and max attributes
+step 		Works with the MIN and MAX attributes
 		to limit the increments at which a
 		numeric or date-time value can be set.
 		It can be the string any or a positive
