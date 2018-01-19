@@ -1466,13 +1466,15 @@ width 		If the value of the TYPE attribute is
 		IMAGE, this attribute defines the width
 		of the image displayed for the button.
 
-The CSS caret-color property lets you set the colour
+The CSS CARET-COLOR property lets you set the colour
 used to draw the text input caret:
 	HTML:
-	<label for="textInput">Note the red
-			       caret:</label>
-	<input id="textInput" class="custom"
-				  size="32"/>
+	<label for="textInput">
+		Note the red caret:
+	</label>
+	<input id="textInput"
+	       class="custom"
+	       size="32">
 	CSS:
 	input.custom {
 	  caret-color: red;
