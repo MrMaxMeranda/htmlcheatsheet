@@ -17,6 +17,6 @@ Try not to rely on implicit sectioning, use <section>,
     </section>
     <section>
          <h2>Colour</h2>
-         <p>Apples come in various colors.</p>
+         <p>Apples come in various colours.</p>
     </section>
-    </body>
+</body>
