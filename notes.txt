@@ -1,5 +1,4 @@
 BEST PRACTICES FOR <H1> to <H6>
-
 Always add a heading to explicit sectioning content.
 Try not to rely on implicit sectioning, use <section>,
 <article>, etc. instead of just <h1>, <h2>, etc.
@@ -20,3 +19,15 @@ Try not to rely on implicit sectioning, use <section>,
          <p>Apples come in various colours.</p>
     </section>
 </body>
+
+---------------
+<MAIN> IS TO IDENTIFY THE MAIN CONTENT OF THE DOCUMENT.
+* There must not be more than one <main> element.
+* <main> must not be a descendent of <article>,
+  <aside>, <footer>, <header> or <nav>.
+---------------
+EMBEDDING A TABLE OF CONTENTS
+Visualizing the table of contents is useful for
+debugging the structure of your page, and checking the
+presence of headings after sectioning content
+
