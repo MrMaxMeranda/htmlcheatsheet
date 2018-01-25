@@ -26,28 +26,31 @@ Try not to rely on implicit sectioning, use <section>,
 * <main> must not be a descendent of <article>,
   <aside>, <footer>, <header> or <nav>.
 <!-- other content -->
-    <main>
-       <h1>Skateboards</h1>
-       <p>The skateboard helps kids to get around.</p>
-       <article>
-          <h2>Longboards</h2>
-	  <p>Longboards are a type of skateboard with a
-	     longer wheelbase and larger, softer
-	     wheels.</p>
-          <p>... </p>
-          <p>... </p>
-       </article>
-       <article>
-          <h2>Electric Skateboards</h2>
-          <p>These no longer require the propelling of
-	     the skateboard by means of the feet;
-	     rather an electric motor propels the
-	     board, fed by an electric battery.</p>
-          <p>... </p>
-          <p>... </p>
-       </article>
-    </main>
+<main>
+   <h1>Skateboards</h1>
+   <p>The skateboard helps kids to get around.</p>
+   <article>
+      <h2>Longboards</h2>
+      <p>Longboards are a type of skateboard with a
+	 longer wheelbase and larger, softer
+	 wheels.</p>
+      <p>... </p>
+      <p>... </p>
+   </article>
+   <article>
+      <h2>Electric Skateboards</h2>
+      <p>These no longer require the propelling of the
+	 skateboard by means of the feet; rather an
+	 electric motor propels the board, fed by an
+	 electric battery.</p>
+      <p>... </p>
+      <p>... </p>
+   </article>
+</main>
 <!-- other content -->
+
+A best practice is to split your page content into
+"regions" defined by the five 5 elements.
 ---------------
 HTML5 CONTENT ORGANISATION
 A good practice is to split your page content into
