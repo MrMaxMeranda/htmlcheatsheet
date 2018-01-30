@@ -493,8 +493,7 @@ in the HTML forms guide.
 
 INTERACTIVE ELEMENTS:
 
-HTML offers a selection of elements which help to
-create interactive user interface objects.
+To help to create interactive user interface objects.
 <dialog> 	Represents a dialog box or other
 		interactive component, such as an
 		inspector or window.
