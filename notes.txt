@@ -87,9 +87,11 @@ or
 '---------------------------------'
 
 ---------------
-<time> 'datetime' notes:
+<TIME> 'DATETIME' NOTES:
+
 <time datetime="13:00">13:00</time>
 Month		YYYY-MM		   Date	     YYYY-MM-DD
+Week		YYYY-WWW	   Year      YYYY
 Yearless	MM-DD
 Time		HH:MM              HH:MM:SS.mmm
 		HH:MM:SS
@@ -102,10 +104,9 @@ date & time	YYYY-MM-DD HH:MM:SS
 Timezone	Z	-HHMM	+HH:MM
 offset		+HHMM   -HH:MM
 Global date	2013-12-15 11:12+0200
-and time	1972-07025         13:34:07+04:30
+and time	1972-07-25         13:34:07+04:30
 		1941-03-15 07:06:23.678Z
 		2013-12-25T11:12-08:00
-Week:		YYYY-WWW	   Year:	YYYY
 Duration	PdDThHmMsS	   P12DT7H12M13S
 		PdDThHmMs.XS       P12DT7H12M13.3S
 		PdDThHmMs.XXS      P12DT7H12M13.45S
