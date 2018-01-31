@@ -85,3 +85,43 @@ or
 .---------------------------------.
 | <footer>                        |
 '---------------------------------'
+
+---------------
+<time> 'datetime' notes:
+The 'datetime' attribute of <time> is machine-readable
+and useful for search engine semantics.
+
+<time datetime="13:00">13:00</time>
+Month		YYYY-MM
+Date		YYYY-MM-DD
+Yearless	MM-DD
+Time		HH:MM
+		HH:MM:SS
+		HH:MM:SS.mmm
+Local		YYYY-MM-DD HH:MM
+date & time	YYYY-MM-DD HH:MM:SS
+		YYYY-MM-DD HH:MM:SS.mmm
+		YYYY-MM-DDTHH:MM
+		YYYY-MM-DDTHH:MM:SS
+		YYYY-MM-DDTHH:MM:SS.mmm
+Timezone	Z
+offset		+HHMM
+		+HH:MM
+		-HHMM
+		-HH:MM
+Global date	2013-12-15 11:12+0200
+and time	1972-07025
+		13:34:07+04:30
+		1941-03-15 07:06:23.678Z
+		2013-12-25T11:12-08:00
+Week		YYYY-WWW
+Year		YYYY
+Duration	PdDThHmMsS
+		PdDThHmMs.XS
+		PdDThHmMs.XXS
+		PdDThHmMs.XXXS
+		PThHmMsS
+		PThHmMs.XS
+		PThHmMs.XXS
+		PThHmMs.XXXS
+		ww dd hh mm ss
