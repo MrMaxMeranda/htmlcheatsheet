@@ -118,27 +118,30 @@ Duration	PdDThHmMsS	   P12DT7H12M13S
 		ww dd hh mm ss     7d 5h 24m 13s
 ---------------
 MICRODATA: schema.org
-The purpose of microdata is Search Engine Optimization.
+The purpose of microdata is Search Engine Optimisation.
 <div itemscope
      itemtype="http://schema.org/Movie">
- <h1 itemprop="name">
-  Tron: Legacy
- </h1>
- <div itemprop="director"
-      itemscope
-      itemtype="http://schema.org/Person">
-   Director:
-   <span itemprop="director">
-    Joseph Kosinski
-   </span>
-   (born <span itemprop="birthDate">May 3, 1974</span>)
- </div>
- <span itemprop="genre">
-  Science fiction
- </span>
- <a href="../film/legacy-trailer.html"
-    itemprop="trailer">
-  Trailer
- </a>
+     <h1 itemprop="name">
+         Tron: Legacy
+     </h1>
+     <div itemprop="director"
+          itemscope
+          itemtype="http://schema.org/Person">
+          Director:
+          <span itemprop="director">
+                Joseph Kosinski
+          </span>
+          (born
+	  <span itemprop="birthDate">
+	        May 3, 1974
+	  </span>)
+     </div>
+     <span itemprop="genre">
+           Science fiction
+     </span>
+     <a href="../film/legacy-trailer.html"
+        itemprop="trailer">
+        Trailer
+     </a>
 </div>
 ---------------
