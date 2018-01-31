@@ -116,3 +116,6 @@ Duration	PdDThHmMsS	   P12DT7H12M13S
 		PThHmMs.XXS        PT7H12M13.56S
 		PThHmMs.XXXS       PT7H12M13.999S
 		ww dd hh mm ss     7d 5h 24m 13s
+---------------
+MICRODATA: schema.org
+The purpose of microdata is Search Engine Optimization.
