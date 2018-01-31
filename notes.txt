@@ -88,40 +88,30 @@ or
 
 ---------------
 <time> 'datetime' notes:
-The 'datetime' attribute of <time> is machine-readable
-and useful for search engine semantics.
-
 <time datetime="13:00">13:00</time>
-Month		YYYY-MM
-Date		YYYY-MM-DD
+Month		YYYY-MM		   Date	     YYYY-MM-DD
 Yearless	MM-DD
-Time		HH:MM
+Time		HH:MM              HH:MM:SS.mmm
 		HH:MM:SS
-		HH:MM:SS.mmm
 Local		YYYY-MM-DD HH:MM
 date & time	YYYY-MM-DD HH:MM:SS
 		YYYY-MM-DD HH:MM:SS.mmm
 		YYYY-MM-DDTHH:MM
 		YYYY-MM-DDTHH:MM:SS
 		YYYY-MM-DDTHH:MM:SS.mmm
-Timezone	Z
-offset		+HHMM
-		+HH:MM
-		-HHMM
-		-HH:MM
+Timezone	Z	-HHMM	+HH:MM
+offset		+HHMM   -HH:MM
 Global date	2013-12-15 11:12+0200
-and time	1972-07025
-		13:34:07+04:30
+and time	1972-07025         13:34:07+04:30
 		1941-03-15 07:06:23.678Z
 		2013-12-25T11:12-08:00
-Week		YYYY-WWW
-Year		YYYY
-Duration	PdDThHmMsS
-		PdDThHmMs.XS
-		PdDThHmMs.XXS
-		PdDThHmMs.XXXS
-		PThHmMsS
-		PThHmMs.XS
-		PThHmMs.XXS
-		PThHmMs.XXXS
-		ww dd hh mm ss
+Week:		YYYY-WWW	   Year:	YYYY
+Duration	PdDThHmMsS	   P12DT7H12M13S
+		PdDThHmMs.XS       P12DT7H12M13.3S
+		PdDThHmMs.XXS      P12DT7H12M13.45S
+		PdDThHmMs.XXXS     P12DT7H12M13.455S
+		PThHmMsS           PT7H12M13S
+		PThHmMs.XS         PT7H12M13.2S
+		PThHmMs.XXS        PT7H12M13.56S
+		PThHmMs.XXXS       PT7H12M13.999S
+		ww dd hh mm ss     7d 5h 24m 13s
